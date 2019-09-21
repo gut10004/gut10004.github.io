@@ -13,7 +13,8 @@ header{
     float: right;
     width:15%;
     max-width:15%;
-    margin-top:0.5em;
+    margin-top:0.25em;
+    margin-right:0.24em;
     border:ridge #e39316;
 }
 h3{
