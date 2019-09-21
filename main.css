@@ -16,6 +16,9 @@ header, nav, main, footer{
     align-content: center;
     max-width: 800px;
 }
+nav{
+    text-decoration: none;
+}
 footer{
     background-color: black;
     color:#e39316;
