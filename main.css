@@ -11,9 +11,10 @@ header{
 #YvettePhoto{
     display:flex;
     float: right;
-    margin:10px;
     width:15%;
     max-width:15%;
+    margin-top:0.5em;
+    border:ridge #e39316;
 }
 h3{
     border-bottom:solid;
