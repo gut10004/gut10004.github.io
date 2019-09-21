@@ -15,7 +15,7 @@ header{
     max-width:15%;
     margin-top:0.25em;
     margin-right:0.24em;
-    border:ridge #e39316;
+    border:ridge 0.5em #e39316;
 }
 h3{
     border-bottom:solid;
