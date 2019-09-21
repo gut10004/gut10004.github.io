@@ -11,6 +11,7 @@ body{
     font-family:"Pacifico", "Brush Script MT", fantasy;
 }
 #YvettePhoto{
+    display:flex;
     float: right;
     margin:10px;
     width:15%;
