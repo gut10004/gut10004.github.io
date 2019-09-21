@@ -9,6 +9,6 @@ header{
     max-width:30%;
 }
 header, nav, main, footer{
-    margin: 1.25rem auto;
+   align-items: center;
     max-width: 800px;
 }
