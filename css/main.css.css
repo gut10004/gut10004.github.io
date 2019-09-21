@@ -6,3 +6,6 @@ h1{
 #YvettePhoto{
     float: right;
 }
+header, nav, main, footer{
+    max-width: 800px;
+}
