@@ -3,6 +3,7 @@
 header{
     background-color:black;
     color: #e39316;
+    align-content: right
 }
 #YvettePhoto{
     float: right;
@@ -10,6 +11,6 @@ header{
     max-width:15%;
 }
 header, nav, main, footer{
-   align-items: center;
-    max-width: 800px;
+   align-content: center;
+max-width: 800px;
 }
