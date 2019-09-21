@@ -9,6 +9,7 @@ header{
 }
 #YvettePhoto{
     float: right;
+    margin:10px;
     width:15%;
     max-width:15%;
 }
