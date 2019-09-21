@@ -4,6 +4,7 @@ header{
     background-color:black;
     color: #e39316;
     text-align: right;
+    align-content: center;
     padding: 1rem;
 }
 #YvettePhoto{
