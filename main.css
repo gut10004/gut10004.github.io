@@ -6,8 +6,6 @@ header{
     text-align: center;
     align-content: center;
     padding: 10px;
-}
-body{
     font-family:"Pacifico", "Brush Script MT", fantasy;
 }
 #YvettePhoto{
@@ -23,6 +21,9 @@ h3{
 header, nav, main, footer{
     align-content: center;
     max-width: 800px;
+}
+nav, footer{
+    font-family: "Rationale", "Papyrus", sans-serif;
 }
 nav{
     text-decoration: none;
