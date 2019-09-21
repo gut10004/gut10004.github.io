@@ -8,8 +8,8 @@ header{
 }
 #YvettePhoto{
     float: right;
-    width:15%;
-    max-width:15%;
+    width:5%;
+    max-width:5%;
 }
 header, nav, main, footer{
     align-content: center;
