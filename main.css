@@ -32,9 +32,11 @@ nav{
 }
 footer{
     background-color: black;
+    margin-right:0px;
     color:#e39316;
     text-align:center;
     padding-top:0.5em;
     align-content: center;
     padding-top:.5em;
+   
 }
