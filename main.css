@@ -6,7 +6,8 @@ header{
 }
 #YvettePhoto{
     float: right;
-    max-width:30%;
+    width:15%;
+    max-width:15%;
 }
 header, nav, main, footer{
    align-items: center;
