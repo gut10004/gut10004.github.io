@@ -10,6 +10,7 @@ header{
 }
 #YvettePhoto{
     display:flex;
+    float: right;
     width:15%;
     max-width:15%;
     margin-top:0.25em;
@@ -36,4 +37,4 @@ footer{
     text-align:center;
     align-content: center;
     padding:1em;
-}
+} 
