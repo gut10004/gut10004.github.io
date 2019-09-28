@@ -17,6 +17,9 @@ header{
     margin-right:0.24em;
     border:solid 0.5em #e39316;
 }
+#designPhoto{
+    border: solid;
+}
 h3{
     border-bottom:solid;
 }
