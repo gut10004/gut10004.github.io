@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rationale&display=swap');
+header{
+    background-color:black;
+    color: #e39316;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    font-family:"Pacifico", "Brush Script MT", fantasy;
+}
+#YvettePhoto{
+    display:flex;
+    float: right;
+    width:15%;
+    max-width:15%;
+    margin-top:0.25em;
+    margin-right:0.24em;
+    border:solid 0.5em #e39316;
+}
+h3{
+    border-bottom:solid;
+}
+header, nav, main, footer{
+    align-content: center;
+    max-width: 800px;
+}
+nav, footer{
+    font-family: "Rationale", "Papyrus", sans-serif;
+}
+nav{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    margin-right:0px;
+    color:#e39316;
+    text-align:center;
+    align-content: center;
+    padding:1em;
+} 
