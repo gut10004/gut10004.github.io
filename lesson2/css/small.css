@@ -41,6 +41,6 @@ footer{
     align-content: center;
     padding:1em;
 } 
-div{
+main.div{
     column-count: 3;
 }
