@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
 body{
-    background-image:url("https://www.transparenttextures.com/patterns/stacked-circles.png");
+    background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
 header {
     background-color:#734B5E;
@@ -67,6 +67,9 @@ footer {
     font-weight: bold;
     align-content: center;
     padding: 1em;
+}
+a{
+
 }
 
 footer a:hover {
