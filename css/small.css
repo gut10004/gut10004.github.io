@@ -19,16 +19,20 @@ header{
 }
 h3{
     border-bottom:solid;
+    text-align: center;
 }
 header, nav, main, footer{
     align-content: center;
     max-width: 800px;
+    text-align: center;
 }
 nav, footer{
     font-family: "Rationale", "Papyrus", sans-serif;
+    text-align: center;
 }
 nav{
     text-decoration: none;
+    text-align: center;
 }
 footer{
     background-color: black;
