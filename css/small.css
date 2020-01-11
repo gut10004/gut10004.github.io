@@ -30,7 +30,6 @@ main {
     margin:0 auto;
 }
 
-
 header,
 nav,
 main,
@@ -42,7 +41,7 @@ footer {
 nav,
 footer {
     font-family: "Rationale", "Papyrus", sans-serif;
-    text-align: center;
+
 }
 
 nav {
