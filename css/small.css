@@ -42,8 +42,7 @@ footer {
     max-width: 600px;
 }
 
-nav,
-footer {
+li {
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
