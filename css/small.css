@@ -26,7 +26,7 @@ h1{
 
 h3 {
     border-bottom: solid  #734B5E;
-    border-bottom-width: 32.5em; 
+    padding: 2px;
     margin: 0 auto;
     text-align: center;
     align-content: center;
