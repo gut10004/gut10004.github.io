@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Seymour+One&display=swap');
 
 header {
     background-color:#9ae6c2;
@@ -44,7 +44,7 @@ footer {
 
 nav,
 footer {
-    font-family: "Rationale", "Papyrus", sans-serif;
+    font-family: "Seymour One", "Papyrus", sans-serif;
 }
 
 nav {
