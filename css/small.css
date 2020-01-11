@@ -21,6 +21,7 @@ header {
 
 h3 {
     border-bottom: solid;
+    margin: 0 auto;
     text-align: center;
     align-content: center;
 }
