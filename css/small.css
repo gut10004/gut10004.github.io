@@ -29,6 +29,9 @@ h3 {
 main {
     margin:0 auto;
 }
+li {
+    margin:0 auto;
+}
 
 header,
 nav,
@@ -41,12 +44,11 @@ footer {
 nav,
 footer {
     font-family: "Rationale", "Papyrus", sans-serif;
-
+    text-align: center;
 }
 
 nav {
     text-decoration: none;
-    text-align: center;
 }
 
 footer {
