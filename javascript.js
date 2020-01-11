@@ -8,4 +8,4 @@ let year = d.getFullYear();
 
 let fullDate = dayName + "," + monthName + " " + d.getDate() + "," + year;
 
-document.getElementById("currentDate").textContent = fullDate;
+document.getElementById("currentDate").innerHTML = fullDate;
