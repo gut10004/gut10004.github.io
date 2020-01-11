@@ -6,6 +6,7 @@ header {
     color: #e39316;
     margin: 0 auto;
     text-align: center;
+    align-content: center;
     padding: 10px;
     font-family: "Pacifico", "Brush Script MT", fantasy;
 }
