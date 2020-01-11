@@ -20,6 +20,10 @@ header {
     border: solid 0.5em #e39316;
 }
 
+h1{
+    text-align: center;
+}
+
 h3 {
     border-bottom: solid;
     margin: 0 auto;
