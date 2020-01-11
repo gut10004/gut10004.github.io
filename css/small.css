@@ -30,10 +30,6 @@ main {
     margin:0 auto;
 }
 
-li{
-    margin: 0 auto;
-}
-
 header,
 nav,
 main,
@@ -50,6 +46,7 @@ footer {
 
 nav {
     text-decoration: none;
+    margin: 0 auto;
 }
 
 footer {
