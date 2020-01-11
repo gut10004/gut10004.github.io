@@ -26,6 +26,9 @@ h3 {
     text-align: center;
     align-content: center;
 }
+main {
+    margin:0 auto;
+}
 
 header,
 nav,
