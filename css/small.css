@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
 body{
-    background-color:#cfd8e6;
+    background-image:url("https://www.transparenttextures.com/patterns/stacked-circles.png");
 }
 header {
-    background-color:#9ae6c2;
-    color:#734B5E;
+    background-color:#734B5E;
+    color:#9ae6c2;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -60,8 +60,8 @@ nav a:hover{
     box-shadow: 5px 5px 5px black;
 }
 footer {
-    background-color:#9ae6c2;
-    color:#734B5E;
+    background-color:#734B5E;
+    color:#9ae6c2;
     margin: 0 auto;
     text-align: center;
     font-weight: bold;
