@@ -35,17 +35,19 @@ header,
 nav,
 main,
 footer {
-    text-align: center;
+    align-content: center;
     max-width: 800px;
 }
 
 nav,
 footer {
     font-family: "Rationale", "Papyrus", sans-serif;
+    text-align: center;
 }
 
 nav {
     text-decoration: none;
+    text-align: center;
 }
 
 footer {
