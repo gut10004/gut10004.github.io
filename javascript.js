@@ -1,11 +1,11 @@
-let dayNames= ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday", "Sunday"];
-let months= ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+let dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-let d= new Date();
-let dayName= dayNames[d.getDay()];
-let monthName= months[d.getMonth()];
-let year= d.getFullYear();
+let d = new Date();
+let dayName = dayNames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
 
-let fullDate= dayName + "," + monthName + "," + " " + d.getDate() + "," 
+let fullDate = dayName + "," + monthName + "," + " " + d.getDate() + ","
 
-document.getElementById("currentDate").textContent= fullDate;
+document.getElementById("currentDate").textContent = fullDate;
