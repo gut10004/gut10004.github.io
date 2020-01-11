@@ -60,3 +60,10 @@ footer {
     align-content: center;
     padding: 1em;
 }
+
+footer a:hover {
+    background-color: #00afb5;
+    color:#000000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
