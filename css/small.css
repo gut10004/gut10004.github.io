@@ -33,8 +33,11 @@ h3 {
     margin: 0 auto;
     text-align: left;
 }
+#copyright{
+    color:white;
+}
 #modified{
-    color: white;
+    color: #9ae6c2;
 }
 main {
     margin:0 auto;
