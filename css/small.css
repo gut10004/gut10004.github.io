@@ -16,8 +16,8 @@ header {
 #YvettePhoto {
     display: flex;
     float: right;
-    width: 15%;
-    max-width: 15%;
+    width: 20%;
+    max-width: 20%;
     margin-top: 0.25em;
     margin-right: 0.24em;
     border: ridge 0.5em #000000;
