@@ -28,7 +28,7 @@ h3 {
     border-bottom: solid  #734B5E;
     padding: 2px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     align-content: center;
 }
 main {
@@ -73,4 +73,4 @@ footer a:hover {
     color:#9ae6c2;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
-}
+} 
