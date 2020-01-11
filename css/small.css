@@ -3,7 +3,7 @@
 
 header {
     background-color:#9ae6c2;
-    color:black;
+    color:#734B5E;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
@@ -17,7 +17,7 @@ header {
     max-width: 15%;
     margin-top: 0.25em;
     margin-right: 0.24em;
-    border: solid 0.5em #e39316;
+    border: solid 0.5em #734B5E;
 }
 
 h1{
@@ -53,7 +53,7 @@ nav {
 
 footer {
     background-color:#9ae6c2;
-    color: black;
+    color:#734B5E;
     margin: 0 auto;
     text-align: center;
     align-content: center;
