@@ -25,7 +25,7 @@ h1{
 }
 
 h3 {
-    border-bottom: solid;
+    border-bottom: solid  #734B5E;
     margin: 0 auto;
     text-align: center;
     align-content: center;
