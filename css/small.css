@@ -36,6 +36,7 @@ main,
 footer {
     align-content: center;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 nav,
@@ -46,7 +47,6 @@ footer {
 
 nav {
     text-decoration: none;
-    margin: 0 auto;
 }
 
 footer {
