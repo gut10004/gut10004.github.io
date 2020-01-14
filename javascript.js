@@ -9,3 +9,5 @@ let year = d.getFullYear();
 let fullDate = dayName + ", " + monthName + " " + d.getDate() + ", " + year;
 
 document.getElementById("currentDate").innerHTML = fullDate;
+
+document.getElementById("year").textContent = year;
