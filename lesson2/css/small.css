@@ -24,7 +24,8 @@ section{
     border-radius: 2.5px;
 }
 section img{
-    max-width: 96.24%;
+    max-width: 90%;
+    padding-left: 0.5em;
 }
 section p{
     display: block;
