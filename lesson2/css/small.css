@@ -2,20 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
 body {
-    background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    margin: 0;
+    padding: 0;
 }
 
+/*phone view*/
 main {
+    max-width: 767px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    margin:auto;
-    grid-gap:1em;
-    padding:1em;
+    font-size: 0.8rem;
+    margin: auto;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+/*computer view*/
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
 }
 
 header {
-    background-color:#734B5E;
-    color:#9ae6c2;
+    background-color: #734B5E;
+    color: #9ae6c2;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
@@ -41,27 +58,30 @@ h3 {
     border-bottom: solid;
 }
 
-h1{
+h1 {
     text-align: center;
     font-weight: bold;
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
 h2 {
-    border-bottom: solid  #734B5E;
+    border-bottom: solid #734B5E;
     padding: 2px;
     margin: 0 auto;
     text-align: center;
 }
-#copyright{
-    color:white;
+
+#copyright {
+    color: white;
 }
-#modified{
+
+#modified {
     color: #9ae6c2;
     font-size: 15px;
 }
+
 main {
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 header,
@@ -80,15 +100,16 @@ nav {
     text-decoration: none;
 }
 
-nav a:hover{
-    background-color:#734B5E;
-    color:#9ae6c2;
+nav a:hover {
+    background-color: #734B5E;
+    color: #9ae6c2;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
+
 footer {
-    background-color:#734B5E;
-    color:#9ae6c2;
+    background-color: #734B5E;
+    color: #9ae6c2;
     margin: 0 auto;
     text-align: center;
     font-weight: bold;
@@ -100,16 +121,17 @@ main.div {
     column-count: 3;
 }
 
-#byui{
-    color:#9ae6c2;
+#byui {
+    color: #9ae6c2;
 }
-a{
-color:#008080;
+
+a {
+    color: #008080;
 }
 
 footer a:hover {
-    background-color:#734B5E;
-    color:#9ae6c2;
+    background-color: #734B5E;
+    color: #9ae6c2;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
-} 
+}
