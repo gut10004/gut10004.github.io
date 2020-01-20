@@ -10,13 +10,12 @@ body {
 /*phone view*/
 main {
     max-width: 767px;
-    margin: 0 auto;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
-    margin: auto;
-    grid-gap: 1em;
-    padding: 1em;
+    grid-gap: 0.8em;
+    padding: 0.8em;
 }
 
 section img{
