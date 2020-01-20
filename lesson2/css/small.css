@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
-body{
+body {
     background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:auto;
+    grid-gap:1em;
+    padding:1em;
+}
+
 header {
     background-color:#734B5E;
     color:#9ae6c2;
