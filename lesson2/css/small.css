@@ -11,7 +11,6 @@ body {
 
 /*phone view*/
 main {
-    max-width: 47.938em;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
