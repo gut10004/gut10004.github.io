@@ -151,6 +151,7 @@ main.div {
 }
 
 a {
+    display: block;
     color: #008080;
     padding-left: 1.30em;
     padding-bottom: 0.25em;
