@@ -18,13 +18,20 @@ main {
     padding: 0.8em;
 }
 
+section{
+    display: block;
+    border-radius: 2.5px;
+}
 section img{
-    max-width: 90%;
+    max-width: 85%;
 }
 section p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     text-align: left;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 
 }
 
