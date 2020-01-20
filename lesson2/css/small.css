@@ -20,6 +20,7 @@ main {
 
 section{
     display: block;
+    background-color: #734B5E;
     border-radius: 2.5px;
 }
 section img{
