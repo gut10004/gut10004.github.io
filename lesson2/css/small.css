@@ -26,8 +26,11 @@ section{
     border-radius: 2.5px;
 }
 section img{
-    max-width: 90%;
-    padding-left: 1.30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
 }
 section p{
     display: block;
