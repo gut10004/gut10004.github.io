@@ -3,6 +3,7 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
         max-width: none;
+        width: 60em;
     }
     
 	header, footer{
