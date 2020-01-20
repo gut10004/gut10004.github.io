@@ -4,6 +4,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         max-width: none;
         width: 77.3em;
+        margin: auto;
     }
     
 	header, footer{
