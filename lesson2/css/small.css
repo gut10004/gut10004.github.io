@@ -69,6 +69,7 @@ header {
 
 #designPhoto {
     border: solid 0.5em black;
+    max-width: 90%;
     padding-left: 0.5em;
 }
 
