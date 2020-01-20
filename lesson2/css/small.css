@@ -20,6 +20,7 @@ main {
 }
 
 section{
+    text-align: left;
     display: block;
     background-color:#9ae6c2;
     border-radius: 2.5px;
@@ -70,6 +71,7 @@ header {
 }
 
 h3 {
+    text-align: left;
     margin-top:0px;
     padding:1.30em;
     border-bottom: solid;
