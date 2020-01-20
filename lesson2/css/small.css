@@ -39,16 +39,6 @@ section p{
 
 }
 
-
-/*computer view*/
-@media only screen and (min-width: 60em) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    section:nth-child(3) {
-        grid-column: span 1;
-    }
 }
 
 header {
