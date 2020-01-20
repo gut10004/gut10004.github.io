@@ -1,31 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
+body{
+    background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
 header {
-    background-color: black;
-    color: #e39316;
+    background-color:#734B5E;
+    color:#9ae6c2;
+    margin: 0 auto;
     text-align: center;
-    align-content: center;
-    padding: 10px;
+    padding: 15px;
     font-family: "Pacifico", "Brush Script MT", fantasy;
 }
 
 #YvettePhoto {
     display: flex;
     float: right;
-    width: 15%;
-    max-width: 15%;
+    width: 20%;
+    max-width: 20%;
     margin-top: 0.25em;
     margin-right: 0.24em;
-    border: solid 0.5em #e39316;
+    border: solid 0.5em #000000;
 }
 
 #designPhoto {
     border: solid 0.5em black;
 }
 
+
 h3 {
     border-bottom: solid;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "El Messiri", "Papyrus", sans-serif;
+}
+
+h2 {
+    border-bottom: solid  #734B5E;
+    padding: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+#copyright{
+    color:white;
+}
+#modified{
+    color: #9ae6c2;
+    font-size: 15px;
+}
+main {
+    margin:0 auto;
 }
 
 header,
@@ -33,23 +60,29 @@ nav,
 main,
 footer {
     align-content: center;
-    max-width: 800px;
+    max-width: 600px;
 }
 
-nav,
-footer {
-    font-family: "Rationale", "Papyrus", sans-serif;
+li {
+    font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
 nav {
     text-decoration: none;
 }
 
+nav a:hover{
+    background-color:#734B5E;
+    color:#9ae6c2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
 footer {
-    background-color: black;
-    margin-right: 0px;
-    color: #e39316;
+    background-color:#734B5E;
+    color:#9ae6c2;
+    margin: 0 auto;
     text-align: center;
+    font-weight: bold;
     align-content: center;
     padding: 1em;
 }
@@ -57,3 +90,17 @@ footer {
 main.div {
     column-count: 3;
 }
+
+#byui{
+    color:#9ae6c2;
+}
+a{
+color:#008080;
+}
+
+footer a:hover {
+    background-color:#734B5E;
+    color:#9ae6c2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+} 
