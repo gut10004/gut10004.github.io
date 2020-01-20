@@ -2,7 +2,7 @@
 @media only screen and (min-width: 60em) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
-        width: 60em;
+        max-width: none;
     }
     
 	header, footer{
