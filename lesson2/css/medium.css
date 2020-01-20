@@ -1,11 +1,11 @@
 /*tablet viewport*/
-@media only screen and (min-width: 37.5 em) {
+@media only screen and (min-width: 48 em) {
     main{
        grid-template-columns: 1fr 1fr;
-       width: 37.5em;
+       width: 48em;
     }
     header, footer{
-		width: 37.5em;
+		width: 48em;
     }
 
     section image{
