@@ -22,7 +22,7 @@ main {
 section{
     text-align: left;
     display: block;
-    background-color:#9ae6c2;
+    background-color:#f0ead8;
     border-radius: 2.5px;
 }
 section img{
@@ -71,6 +71,7 @@ header {
 }
 
 h3 {
+    background-color: #9ae6c2;
     text-align: left;
     margin-top:0px;
     padding:0.70em;
