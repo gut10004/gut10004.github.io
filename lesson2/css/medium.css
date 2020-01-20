@@ -1,16 +1,18 @@
 /*tablet viewport*/
 @media only screen and (min-width: 37.5 em) {
-    main{
-       grid-template-columns: 1fr 1fr;
-       width: 37.5em;
-    }
-    header, footer{
-		width: 37.5em;
-    }
-
-    section image{
-      max-width: 84%;
-      padding: 0em 1.30em 0em 1.30em;
+  main {
+    grid-template-columns: 1fr 1fr;
+    width: 37.5em;
   }
-    
+
+  header,
+  footer {
+    width: 37.5em;
+  }
+
+  section image {
+    max-width: 84%;
+    padding: 0em 1.30em 0em 1.30em;
+  }
+
 }
