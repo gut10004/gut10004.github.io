@@ -67,13 +67,6 @@ header {
     border: solid 0.5em #000000;
 }
 
-#designPhoto {
-    border: solid 0.5em black;
-    max-width: 90%;
-    padding-left: 0.5em;
-}
-
-
 h3 {
     border-bottom: solid;
 }
