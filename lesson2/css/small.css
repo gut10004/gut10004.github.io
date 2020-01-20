@@ -11,7 +11,7 @@ body {
 
 /*phone view*/
 main {
-    max-width: 767px;
+    max-width: 47.938em;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -103,7 +103,6 @@ nav,
 main,
 footer {
     align-content: center;
-    max-width: 47.938em;
 }
 
 li {
