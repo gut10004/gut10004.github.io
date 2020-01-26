@@ -140,8 +140,8 @@ main.div {
 }
 
 nav a {
-    display: block;
     color: #008080;
+    text-decoration: none;
 }
 
 footer a:hover {
