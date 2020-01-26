@@ -19,6 +19,18 @@ main {
     padding: 0.8em;
 }
 
+header {
+    background-color: #734B5E;
+    color: #9ae6c2;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    font-family: "Pacifico", "Brush Script MT", fantasy;
+}
+
+header img{
+    width: 25%;
+}
 section{
     text-align: left;
     display: block;
@@ -39,14 +51,7 @@ section p{
 
 }
 
-header {
-    background-color: #734B5E;
-    color: #9ae6c2;
-    margin: 0 auto;
-    text-align: center;
-    padding: 15px;
-    font-family: "Pacifico", "Brush Script MT", fantasy;
-}
+
 
 h3 {
     background-color: #9ae6c2;
