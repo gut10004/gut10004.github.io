@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
 body {
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    background-color: #E6EED6 ;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -108,8 +108,9 @@ li {
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
-nav {
+nav ul {
     text-decoration: none;
+    list-style-type: none;
 }
 
 nav a:hover {
