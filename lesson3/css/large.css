@@ -4,21 +4,22 @@
         grid-template-columns: 1fr 1fr 1fr;
         max-width: none;
         width: 77.3em;
-        margin-left:10%;
-		margin-right:10%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-    
-	header, footer{
+
+    header,
+    footer {
         max-width: 100%;
     }
 
-    section image{
+    h1 {
+        font-size: 50px;
+    }
+
+    section image {
         max-width: 84%;
         padding: 0em 1.30em 0em 1.30em;
     }
 
-    h1{
-        font-size: 50px;
-    }
-    
 }
