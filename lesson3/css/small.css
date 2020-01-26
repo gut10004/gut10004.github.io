@@ -142,10 +142,9 @@ main.div {
     color: #9ae6c2;
 }
 
-a {
+nav a {
     display: block;
     color: #008080;
-    padding-left: 1.30em;
 }
 
 footer a:hover {
