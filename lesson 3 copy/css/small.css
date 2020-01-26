@@ -122,8 +122,8 @@ nav ul li{
 }
 
 nav a:hover {
-    background-color: #734B5E;
-    color: #9ae6c2;
+    background-color: #B39C4D;
+    color: black;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
