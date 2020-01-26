@@ -106,6 +106,7 @@ li {
 nav ul {
     text-decoration: none;
     list-style-type: none;
+    align-content: center;
 }
 nav ul li{
     display: block;
