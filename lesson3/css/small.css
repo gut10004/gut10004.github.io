@@ -104,13 +104,17 @@ li {
 }
 
 nav ul {
-    text-decoration: none;
-    list-style-type: none;
-    align-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 nav ul li{
     display: block;
-	
+	color: #34623F;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
 }
 
 nav a:hover {
