@@ -48,16 +48,6 @@ header {
     font-family: "Pacifico", "Brush Script MT", fantasy;
 }
 
-#YvettePhoto {
-    display: flex;
-    float: right;
-    width: 20%;
-    max-width: 20%;
-    margin-top: 0.25em;
-    margin-right: 0.24em;
-    border: solid 0.5em #000000;
-}
-
 h3 {
     background-color: #9ae6c2;
     text-align: left;
