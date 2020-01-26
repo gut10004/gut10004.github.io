@@ -16,5 +16,9 @@
         max-width: 84%;
         padding: 0em 1.30em 0em 1.30em;
     }
+
+    h1{
+        font-size: 50px;
+    }
     
 }
