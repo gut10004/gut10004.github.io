@@ -1,7 +1,7 @@
 /*computer viewport*/
 @media only screen and (min-width: 60em) {
     body{
-        background-color: F9F8F2;
+        background-color: #F9F8F2;
     }
     main {
         grid-template-columns: 1fr 1fr 1fr;
