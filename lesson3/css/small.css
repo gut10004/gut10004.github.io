@@ -19,6 +19,9 @@ main {
     padding: 0.8em;
 }
 
+#typographyspace{
+    margin-bottom: 10em;
+}
 header {
     background-color: #482728;
     color: #9ae6c2;
