@@ -71,8 +71,8 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-family: "El Messiri", "Papyrus", sans-serif;
-    margin-block-end: auto;
-    margin-block-start: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
