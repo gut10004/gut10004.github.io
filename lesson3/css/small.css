@@ -2,17 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
-html{
-    height: 100%;
-}
+
 body {
     background-color: #F9F8F2 ; 
     margin: 0;
     padding: 0;
     text-align: center;
     display:flex;
-    flex-direction: column;
-    min-height: 100%;
 }
 
 /*phone view*/
@@ -145,7 +141,6 @@ footer {
     font-weight: bold;
     align-content: center;
     padding: 1em;
-    margin-top: auto;
 }
 
 main.div {
