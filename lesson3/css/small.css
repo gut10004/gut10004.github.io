@@ -103,6 +103,9 @@ li {
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
+nav {
+    background-color: #1E2F23;
+}
 nav ul {
     margin: 0;
     padding: 0;
@@ -110,7 +113,7 @@ nav ul {
 }
 nav ul li{
     display: block;
-	color: #34623F;
+	color: white;
 	font-size: 0.95rem;
 }
 
