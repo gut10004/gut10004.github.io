@@ -8,6 +8,10 @@
   footer {
     max-width: 100%;
   }
+
+  header{
+    font-size: 1.25rem;
+  }
   
   section image {
     max-width: 84%;
