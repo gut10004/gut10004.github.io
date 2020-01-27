@@ -24,6 +24,7 @@
     nav li:hover{
         background-color: #B39C4D;
         color: black;
+        box-shadow: 5px 5px 5px black;
     }
     
     nav ul li { 
