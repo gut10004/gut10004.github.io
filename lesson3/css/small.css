@@ -7,6 +7,9 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /*phone view*/
@@ -139,6 +142,7 @@ footer {
     font-weight: bold;
     align-content: center;
     padding: 1em;
+    margin-top: auto;
 }
 
 main.div {
