@@ -3,6 +3,10 @@
   main {
     grid-template-columns: 1fr 1fr;
   }
+
+  #typographyspace{
+    margin-bottom: 15em;
+  }
   
   header,
   footer {
