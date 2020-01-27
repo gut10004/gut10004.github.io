@@ -20,11 +20,16 @@
     nav ul {
         display:flex;
     }
+
+    nav ul:hover{
+        background-color: #B39C4D;
+        color: black;
+    }
     
     nav ul li { 
 		flex: 1 1 100%; 
 	}
-
+    
     section image {
         max-width: 84%;
         padding: 0em 1.30em 0em 1.30em;
