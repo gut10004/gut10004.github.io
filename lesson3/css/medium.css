@@ -18,6 +18,10 @@
     font-size: 50px;
   }
 
+  nav{
+    width: 80%;
+  }
+
   nav ul {
     display:flex;
   }
