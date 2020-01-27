@@ -34,6 +34,16 @@ header img{
     width: 5%;
 }
 
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: "El Messiri", "Papyrus", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 #h1p{
     text-align: center;
     margin-top: 0;
@@ -60,8 +70,6 @@ section p{
 
 }
 
-
-
 h3 {
     background-color: #9ae6c2;
     text-align: left;
@@ -73,15 +81,6 @@ h3 {
 
 h4 {
     padding-left: 1.30em;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-family: "El Messiri", "Papyrus", sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 h2 {
