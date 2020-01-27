@@ -31,7 +31,7 @@ header {
 
 header img{
     float:left;
-    width: 25%;
+    width: 5%;
 }
 
 #h1p{
@@ -76,6 +76,7 @@ h4 {
 }
 
 h1 {
+    color: white;
     text-align: center;
     font-weight: bold;
     font-family: "El Messiri", "Papyrus", sans-serif;
