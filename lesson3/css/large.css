@@ -21,7 +21,7 @@
         display:flex;
     }
 
-    nav ul:hover{
+    nav li:hover{
         background-color: #B39C4D;
         color: black;
     }
