@@ -20,6 +20,11 @@
         font-size: 50px;
     }
 
+    nav {
+        padding-left:10em;
+        padding-right:10em;
+      }
+
     nav ul {
         display:flex;
     }
