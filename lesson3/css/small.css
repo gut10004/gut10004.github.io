@@ -115,10 +115,8 @@ nav ul li{
 }
 
 nav a:hover {
-    background-color: #B39C4D;
     color: black;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
 }
 
 footer {
