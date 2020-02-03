@@ -12,6 +12,10 @@
     header{
       font-size: 1.25rem;
     }
+
+    header img{
+      width: 100%;
+    }
     
     section image {
       max-width: 84%;
