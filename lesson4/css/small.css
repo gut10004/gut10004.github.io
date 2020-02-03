@@ -119,6 +119,7 @@ li {
 
 .navigation{
     display: flex;
+    flex-direction: column;
 }
 
 .navigation li:first-child{
