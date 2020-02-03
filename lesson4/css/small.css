@@ -121,6 +121,10 @@ li {
     display: flex;
 }
 
+.navigation li:first-child{
+    display: block;
+}
+
 .navigation li{
     display: none;
 }
