@@ -6,7 +6,6 @@
     main {
         grid-template-columns: 1fr 1fr 1fr;
         max-width: none;
-        width: 77.3em;
         margin-left: 10%;
         margin-right: 10%;
     }
