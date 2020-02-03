@@ -26,6 +26,10 @@
       font-size: 50px;
     }
   
+    nav {
+      display: flex;
+    }
+    
     nav ul {
       display:flex;
     }
