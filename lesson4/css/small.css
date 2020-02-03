@@ -121,6 +121,9 @@ li {
     display: flex;
 }
 
+.navigation li{
+    display: none;
+}
 nav ul {
     margin: 0;
     padding: 0;
