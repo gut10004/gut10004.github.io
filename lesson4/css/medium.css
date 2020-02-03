@@ -26,10 +26,10 @@
       font-size: 50px;
     }
   
-    nav {
-      display: flex;
+    nav button{
+      display: none;
     }
-    
+
     nav ul {
       display:flex;
     }
