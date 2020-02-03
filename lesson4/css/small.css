@@ -150,11 +150,6 @@ nav ul li{
 	font-size: 1.25rem;
 }
 
-nav a:hover {
-    color: black;
-    border-radius: 5px;
-}
-
 footer {
     background-color: #482728;
     color: #9ae6c2;
