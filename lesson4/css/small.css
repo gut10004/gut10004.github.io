@@ -122,6 +122,10 @@ li {
     
 }
 
+.ham a{
+    color:white;
+}
+
 .navigation li:first-child{
     display: block;
 }
