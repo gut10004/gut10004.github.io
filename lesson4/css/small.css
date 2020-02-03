@@ -13,7 +13,7 @@ body {
 /*phone view*/
 main {
     margin: auto;
-    display: grid;
+    display: block;
     grid-template-columns: 1fr;
     font-size: 1rem;
     grid-gap: 0.8em;
@@ -154,6 +154,20 @@ main.div {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    background-color: white;
+	color: #444444;
+	font-style: italic;
+}
+
+.forecast {
+    
 }
 
 footer a:hover {
