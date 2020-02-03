@@ -117,6 +117,10 @@ li {
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
+.navigation{
+    display: flex;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
