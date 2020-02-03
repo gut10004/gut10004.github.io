@@ -128,6 +128,10 @@ li {
 .navigation li{
     display: none;
 }
+
+.responsive li{
+    display: block;
+}
 nav ul {
     margin: 0;
     padding: 0;
