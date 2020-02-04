@@ -44,7 +44,7 @@
 
     nav ul li { 
       float:left;
-      display: flex 1 1 100%; 
+      flex: 1 1 100%; 
     }
 
     .clearfix:after {
