@@ -26,13 +26,12 @@
       font-size: 50px;
     }
   
-    nav button{
+    .ham{
       display: none;
     }
 
     nav ul {
       display:flex;
-      flex-direction: row;
     }
   
     nav ul li { 
