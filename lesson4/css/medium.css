@@ -4,8 +4,7 @@
       grid-template-columns: 1fr 1fr;
     }
     
-    header,
-    footer {
+    header {
       max-width: 100%;
     }
   
