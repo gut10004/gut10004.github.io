@@ -117,14 +117,14 @@ li {
     font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
-.navigation{
-    display: flex;
-    flex-direction: column;
-}
-
 nav button{
     font-size: 1.6rem;
     color:white;
+}
+
+.navigation{
+    list-style:none;
+    padding:0;
 }
 
 .navigation li:first-child{
@@ -138,6 +138,7 @@ nav button{
 .responsive li{
     display: block;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
