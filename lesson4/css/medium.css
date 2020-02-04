@@ -54,7 +54,7 @@
       clear: both;
     }
 
-    footer{
+    main, footer{
       width:75%;
-    }
+  }
   }

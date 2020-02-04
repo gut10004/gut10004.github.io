@@ -3,12 +3,6 @@
     body{
         background-color: #F9F8F2;
     }
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-        max-width: none;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
 
     header {
         max-width: 100%;
@@ -35,5 +29,4 @@
         max-width: 84%;
         padding: 0em 1.30em 0em 1.30em;
     }
-
 }
