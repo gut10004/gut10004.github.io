@@ -24,9 +24,6 @@
     h1 {
       font-size: 50px;
     }
-  
-    .ham a{display:none;
-    }
 
     nav ul {
       display: flex;
