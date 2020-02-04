@@ -68,8 +68,6 @@ section img{
 }
 section p{
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     text-align: left;
     padding-left: 1.30em;
     padding-right: 1.30em;
