@@ -24,7 +24,11 @@
     h1 {
       font-size: 50px;
     }
-
+    
+    nav {
+      width:100%;
+    }
+    
     .navigation {
       display: flex;
     }
