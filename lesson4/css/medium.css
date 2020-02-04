@@ -47,11 +47,6 @@
       display: flex 1 1 100%; 
     }
 
-    nav li:hover{
-      background-color: #B39C4D;
-      color: black;
-    }
-    
     .clearfix:after {
       content: "";
       display: table;
