@@ -26,9 +26,7 @@
       font-size: 50px;
     }
   
-    .navigation li:first-child{
-      display: none;
-    }
+    
 
     nav ul {
       display:flex;
