@@ -26,8 +26,7 @@
       font-size: 50px;
     }
   
-    .ham{
-      display: none;
+    .ham a{display:none;
     }
 
     nav ul {
