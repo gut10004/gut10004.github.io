@@ -25,10 +25,15 @@
       font-size: 50px;
     }
 
-    nav ul {
+    .navigation {
       display: flex;
     }
-  
+
+    .navigation li {
+      display: block; 
+      flex: 1 1 100%;
+    }
+
     nav ul li { 
       float:left;
       display: flex 1 1 100%; 
