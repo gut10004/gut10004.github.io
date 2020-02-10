@@ -12,11 +12,11 @@ body {
 
 /*phone view*/
 #banner{
-    color:black;
+    color:#1E2F23;
     background:#B39C4D;
-    border: 1.5px solid black;
+    border: 1.5px solid#B39C4D;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.50em;
 	margin: 0;
     padding: 1em;
 }
