@@ -127,6 +127,7 @@ nav button{
 
 .navigation li:first-child{
     display: block;
+    padding: 0.5em;
 }
 
 .navigation li{
@@ -146,7 +147,8 @@ nav ul {
 nav ul li{
     display: block;
 	color: white;
-	font-size: 1.25rem;
+    font-size: 1.25rem;
+    padding: 0.5em;
 }
 
 footer {
