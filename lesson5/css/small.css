@@ -13,7 +13,7 @@ body {
 /*phone view*/
 #banner{
     color:#1E2F23;
-    background:radial-gradient(#F9F8F2 , #F9F8F2 , #B39C4D);
+    background:radial-gradient(#F9F8F2 , #B39C4D , #B39C4D);
     text-align: center;
     font-size: 1.50em;
 	margin: 0;
