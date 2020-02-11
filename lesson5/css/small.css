@@ -106,6 +106,10 @@ h2 {
 .hero{
     position: relative;
 }
+
+.hero img {
+    max-width: 75%;
+}
 .weathersummary{
     position: absolute;
     top: 25px;
