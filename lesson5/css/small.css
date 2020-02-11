@@ -15,9 +15,9 @@ body {
     color:#1E2F23;
     background:radial-gradient(#F9F8F2 , #B39C4D , #B39C4D);
     text-align: center;
-    font-size: 1.50em;
+    font-size: 1em;
 	margin: 0;
-    padding: 0.75em;
+    padding: 0.25em;
 }
 
 main {
