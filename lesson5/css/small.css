@@ -104,6 +104,20 @@ h2 {
     text-align: center;
 }
 
+.hero{
+    position: relative;
+}
+.weathersummary{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    background: radial-gradient(#eeeeee,#734B5E);
+    border: 1px solid #000000;
+    padding: 1.5rem;
+	box-shadow: 0 0 30px #111111;
+	opacity: .8;
+}
+
 #copyright {
     color: white;
 }
