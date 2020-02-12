@@ -239,6 +239,7 @@ article {
     padding: 2em;
     display: flex;
     justify-content: center;
+    text-align: left;
 }
 
 .contactmethods{
