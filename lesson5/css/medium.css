@@ -71,7 +71,8 @@
 
     .week{
       display: flex;
-		  flex-direction: row;
+      flex-direction: row;
+      font-size: 1.75em;
     }
 
     .week div:last-child {
@@ -96,8 +97,6 @@
     }
 
     .temperature{
-      display: block;
-      padding: .25em;
       color: #1E2F23;
       font-size: 1.50em;
       font-weight: 500;
