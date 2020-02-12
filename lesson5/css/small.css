@@ -199,6 +199,10 @@ nav a {
     text-decoration: none;
 }
 
+article h3{
+    text-align: left;
+}
+
 article h4 {
 	font-style: italic;
 }
