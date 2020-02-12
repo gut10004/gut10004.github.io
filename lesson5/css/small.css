@@ -227,6 +227,10 @@ article {
     background-color: #B39C4D;
 }
 
+.map{
+    max-width: 20%;
+}
+
 footer a:hover {
     background-color: #734B5E;
     color: #9ae6c2;
