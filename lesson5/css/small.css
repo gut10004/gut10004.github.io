@@ -230,6 +230,7 @@ article {
 .map{
     max-width: 25%;
     float: left;
+    margin-right: 2em;
 }
 
 .contactinfo{
