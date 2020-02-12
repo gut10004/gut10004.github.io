@@ -234,6 +234,7 @@ article {
 }
 
 .contactinfo{
+    max-width: 75%;
     background-color: black;
     color: white;
     padding: 2em;
