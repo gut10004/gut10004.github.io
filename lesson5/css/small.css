@@ -232,6 +232,15 @@ article {
     float: left;
 }
 
+.contactinfo{
+    background-color: black;
+    color: white;
+}
+
+.contactmethods{
+    max-width: 60%;
+}
+
 .contactmethods img{
     max-width: 40px;
 }
