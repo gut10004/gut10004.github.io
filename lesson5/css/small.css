@@ -199,14 +199,24 @@ nav a {
     text-decoration: none;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed black;
-    padding: 15px;
-    background-color: white;
-	color: #444444;
+article h5 {
 	font-style: italic;
+}
+
+article img {
+    max-width: 10%;
+    box-shadow: 0 0 2em black;
+}
+    
+article {
+    display: block;
+    padding: 1em 1em 1em 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: left;
+    background-color: #734B5E;
 }
 
 footer a:hover {
