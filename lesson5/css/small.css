@@ -231,6 +231,10 @@ article {
     max-width: 20%;
 }
 
+.contactmethods img{
+    max-width: 40px;
+}
+
 footer a:hover {
     background-color: #734B5E;
     color: #9ae6c2;
