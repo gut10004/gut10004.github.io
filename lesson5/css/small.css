@@ -114,10 +114,10 @@ h2 {
     position: absolute;
     top: 30px;
     left: 90px;
-    background: radial-gradient(#eeeeee,#734B5E);
-    border: 1px solid #000000;
+    background: radial-gradient(white,#734B5E);
+    border: 1px solid black;
     padding: 1.5rem;
-	box-shadow: 0 0 30px #111111;
+	box-shadow: 0 0 30px black;
     opacity: .8;
     line-height: 0.40rem;
 }

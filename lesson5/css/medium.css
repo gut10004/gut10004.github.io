@@ -60,6 +60,33 @@
 
     main, footer{
       width:75%;
-  }
+    }
 
-  }
+    .forecast {
+      display: block;
+      flex-direction: row;
+      max-width: 32em;
+      margin: 0 auto;
+    }
+
+    .week{
+      display: flex;
+		  flex-direction: row;
+    }
+
+    .weekdays{
+      border-top: 1px solid black;
+		  flex: 1 1 100%;
+		  font-size: .5em;
+    }
+
+    .day{
+      display: block;
+      border: 1px solid black;
+      background-color: #734B5E;
+      color: white;
+      padding: .5em;
+      font-size: 1em;
+      font-weight: 500em;
+    }
+}
