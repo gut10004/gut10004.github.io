@@ -95,4 +95,12 @@
       font-size: 1em;
       font-weight: 500em;
     }
+
+    .temperature{
+      display: block;
+      padding: .25em;
+      color: #1E2F23;
+      font-size: 1.50em;
+      font-weight: 500;
+    }
 }
