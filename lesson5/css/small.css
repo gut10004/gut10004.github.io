@@ -237,6 +237,8 @@ article {
     background-color: black;
     color: white;
     padding: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 .contactmethods{
