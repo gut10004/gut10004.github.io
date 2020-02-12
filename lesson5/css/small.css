@@ -199,8 +199,12 @@ nav a {
     text-decoration: none;
 }
 
-article h5 {
+article h4 {
 	font-style: italic;
+}
+
+article p{
+    font-size: 1.5rem;
 }
 
 article img {
