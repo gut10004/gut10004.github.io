@@ -65,7 +65,7 @@
     .forecast {
       display: block;
       flex-direction: row;
-      max-width: 32em;
+      max-width: 30em;
       margin: 0 auto;
     }
 
@@ -76,6 +76,8 @@
 
     .weekdays{
       border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
 		  flex: 1 1 100%;
 		  font-size: .5em;
     }
