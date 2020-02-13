@@ -4,7 +4,7 @@ let d = new Date();
 let dayName = dayNames[d.getDay()];
 var disp = "none";
 
-if (day == 2) {
+if (day == 3) {
     disp = "block";
 }
 
