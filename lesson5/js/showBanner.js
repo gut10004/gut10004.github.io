@@ -1,8 +1,9 @@
 var today = new Date();
 var day = today.getDay();
+var disp = "none";
 
-if (day==5) {
-    
-} 
-//display banner for user to see
+if (day == 5) {
+    disp = "block";
+}
+
 document.getElementById("banner").style.display = disp;
