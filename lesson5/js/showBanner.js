@@ -1,8 +1,8 @@
-let d = new Date();
-let dayName = dayNames[d.getDay()];
-var disp = dayName;
+let today = new Date();
+let day= today.getDay();
+var disp = day;
 
-if (dayName == 5) {
+if (day == 5) {
     
 }
 
