@@ -111,8 +111,8 @@
     article img{
       float: right;
       max-width: 20%;
-      margin-top: 2em;
-      margin-right: 2em;
+      margin-top: 1.5em;
+      margin-right: 1.5em;
     }
 
     .map{
