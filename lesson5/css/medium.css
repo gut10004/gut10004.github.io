@@ -110,8 +110,7 @@
 
     article img{
       float: right;
-      max-width: 12%;
-      margin-right: 2em;
+      max-width: 10%;
     }
 
     .map{
