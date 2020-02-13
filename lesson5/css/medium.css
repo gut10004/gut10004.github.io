@@ -62,8 +62,8 @@
       width:75%;
     }
 
-    .active{
-      background-color:  #B39C4D;
+    nav ul:third-child{
+      background-color: #B39C4D;
 	    color: black;
     }
 
