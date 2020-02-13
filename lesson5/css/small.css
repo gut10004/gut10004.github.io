@@ -110,8 +110,9 @@ h2 {
 }
 .weathersummary{
     position: absolute;
-    top: 30px;
-    left: 90px;
+    top: 10px;
+    left: 30px;
+    max-width: ;
     background: radial-gradient(white,#734B5E);
     border: 1px solid black;
     padding: 1.5rem;
@@ -212,7 +213,7 @@ article p{
 }
 
 article img {
-    max-width: 10%;
+    max-width: 50%;
     box-shadow: 0 0 2em black;
 }
     
@@ -249,7 +250,7 @@ article {
 }
 
 .contactmethods img{
-    max-width: 40px;
+    max-width: 39px;
 }
 
 footer a:hover {

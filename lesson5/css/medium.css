@@ -62,6 +62,12 @@
       width:75%;
     }
 
+    .weathersummary{
+      top: 30px;
+      left: 90px;
+      
+    }
+
     .forecast {
       display: block;
       flex-direction: row;
@@ -112,5 +118,5 @@
       float: left;
       margin-right: 2em;
     }
-    
+
 }
