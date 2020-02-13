@@ -65,7 +65,7 @@
     .weathersummary{
       top: 30px;
       left: 90px;
-      
+
     }
 
     .forecast {
@@ -111,6 +111,7 @@
 
     article img{
       float: right;
+      max-width: 50%;
     }
 
     .map{
