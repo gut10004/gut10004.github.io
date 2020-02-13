@@ -227,10 +227,12 @@ article {
     background-color: #B39C4D;
 }
 
-.map{
-    max-width: 25%;
-    float: left;
-    margin-right: 2em;
+.forecast{
+    display: none;
+}
+
+.map {
+    display: none;
 }
 
 .contactinfo{
