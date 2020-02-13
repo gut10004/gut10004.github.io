@@ -62,7 +62,7 @@
       width:75%;
     }
 
-    nav ul li:third-child{
+    a:third-child{
       background-color: #B39C4D;
 	    color: black;
     }
