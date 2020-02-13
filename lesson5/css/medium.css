@@ -62,6 +62,11 @@
       width:75%;
     }
 
+    .active{
+      background-color:  #B39C4D;
+	    color: black;
+    }
+
     .weathersummary{
       top: 30px;
       left: 70px;
@@ -87,7 +92,7 @@
       border-top: 1px solid black;
       border-left: 1px solid black;
       border-bottom: 1px solid black;
-		  flex: 1 1 100%;
+		  flex: 0.5 1 100%;
     }
 
     .day{
