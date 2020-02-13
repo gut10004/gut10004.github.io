@@ -2,7 +2,7 @@ var today = new Date();
 var day = today.getDay();
 var disp = "none";
 
-if (day == 5) {
+if (day == 2) {
     disp = "block";
 }
 
