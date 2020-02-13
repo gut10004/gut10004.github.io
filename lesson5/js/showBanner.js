@@ -2,10 +2,10 @@ let dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturda
 
 let d = new Date();
 let dayName = dayNames[d.getDay()];
-var disp = "none";
+var disp = dayName;
 
 if (day == 3) {
-    disp = "block";
+    
 }
 
-document.getElementById("banner").style.display = dayName;
+document.getElementById("banner").style.display = disp;
