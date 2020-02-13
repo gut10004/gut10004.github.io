@@ -112,7 +112,6 @@ h2 {
     position: absolute;
     top: 10px;
     left: 30px;
-    max-width: 50%;
     background: radial-gradient(white,#734B5E);
     border: 1px solid black;
     padding: 1.5rem;
