@@ -68,10 +68,9 @@
 
     }
 
-    .forecast {
+    .forecast div{
       display: block;
-      flex-direction: row;
-      max-width: 70%;
+      max-width: 50%;
       margin: 0 auto;
     }
 
