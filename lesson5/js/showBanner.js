@@ -1,3 +1,5 @@
+let dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
 var today = new Date();
 var day = today.getDay();
 var disp = "none";
