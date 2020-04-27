@@ -30,13 +30,16 @@ h2 {
     padding: 2px;
     margin: 0 auto;
 }
+
 #copyright{
     color:white;
 }
+
 #modified{
     color: #FFE19C;
     font-size: 15px;
 }
+
 main {
     margin:0 auto;
 }
@@ -58,6 +61,7 @@ nav a:hover{
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
+
 footer {
     background-color:#3A2449;
     margin: 0 auto;
@@ -65,9 +69,11 @@ footer {
     font-weight: bold;
     padding: 1em;
 }
+
 #byui{
     color:#FFE19C;
 }
+
 a{
 color:#D68D27;
 }
