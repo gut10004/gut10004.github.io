@@ -40,8 +40,8 @@ section p{
 }
 
 header {
-    background-color: #734B5E;
-    color: #9ae6c2;
+    background-color:#3A2449;
+    color: #FFE19C;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
@@ -59,7 +59,7 @@ header {
 }
 
 h3 {
-    background-color: #9ae6c2;
+    background-color: #FFE19C;
     text-align: left;
     margin-top:0px;
     padding:0.70em;
@@ -78,7 +78,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: solid #734B5E;
+    border-bottom: solid #3A2449;
     padding: 2px;
     margin: 0 auto;
     text-align: center;
@@ -89,7 +89,7 @@ h2 {
 }
 
 #modified {
-    color: #9ae6c2;
+    color:#FFE19C;
     font-size: 15px;
 }
 
@@ -113,15 +113,15 @@ nav {
 }
 
 nav a:hover {
-    background-color: #734B5E;
-    color: #9ae6c2;
+    background-color: #3A2449;
+    color: #FFE19C;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
 
 footer {
-    background-color: #734B5E;
-    color: #9ae6c2;
+    background-color:#3A2449;
+    color:#FFE19C;
     margin: 0 auto;
     text-align: center;
     font-weight: bold;
@@ -134,7 +134,7 @@ main.div {
 }
 
 #byui {
-    color: #9ae6c2;
+    color:#FFE19C;
 }
 
 a {
@@ -144,8 +144,8 @@ a {
 }
 
 footer a:hover {
-    background-color: #734B5E;
-    color: #9ae6c2;
+    background-color: #3A2449;
+    color:#FFE19C;
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
