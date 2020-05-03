@@ -1,0 +1,151 @@
+/*phone viewport*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*phone view*/
+main {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    grid-gap: 0.8em;
+    padding: 0.8em;
+}
+
+section{
+    text-align: left;
+    display: block;
+    background-color:#f0ead8;
+    border-radius: 2.5px;
+}
+section img{
+    max-width: 90%;
+    padding-left: 1.30em;
+}
+section p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    padding-left: 1.30em;
+    padding-right: 1.30em;
+
+}
+
+header {
+    background-color: #734B5E;
+    color: #9ae6c2;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    font-family: "Pacifico", "Brush Script MT", fantasy;
+}
+
+#YvettePhoto {
+    display: flex;
+    float: right;
+    width: 20%;
+    max-width: 20%;
+    margin-top: 0.25em;
+    margin-right: 0.24em;
+    border: solid 0.5em #000000;
+}
+
+h3 {
+    background-color: #9ae6c2;
+    text-align: left;
+    margin-top:0px;
+    padding:0.70em;
+    padding-left: 1.30em;
+    border-bottom: solid;
+}
+
+h4 {
+    padding-left: 1.30em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "El Messiri", "Papyrus", sans-serif;
+}
+
+h2 {
+    border-bottom: solid #734B5E;
+    padding: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+}
+
+#modified {
+    color: #9ae6c2;
+    font-size: 15px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header,
+nav,
+main,
+footer {
+    align-content: center;
+}
+
+li {
+    font-family: "El Messiri", "Papyrus", sans-serif;
+}
+
+nav {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #734B5E;
+    color: #9ae6c2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+footer {
+    background-color: #734B5E;
+    color: #9ae6c2;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+    padding: 1em;
+}
+
+main.div {
+    column-count: 3;
+}
+
+#byui {
+    color: #9ae6c2;
+}
+
+a {
+    display: block;
+    color: #008080;
+    padding-left: 1.30em;
+}
+
+footer a:hover {
+    background-color: #734B5E;
+    color: #9ae6c2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
