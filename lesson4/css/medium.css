@@ -6,11 +6,10 @@
     
     header {
       max-width: 100%;
+      font-size: 1.25rem;
+      justify-content: center;
     }
   
-    header{
-      font-size: 1.25rem;
-    }
 
     header img{
       width: 90%;
