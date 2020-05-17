@@ -45,6 +45,7 @@
     nav ul li { 
       float:left;
       flex: 1 1 100%; 
+      padding:0.30em;
     }
 
     main, footer{
