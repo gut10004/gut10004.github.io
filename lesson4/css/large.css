@@ -22,7 +22,8 @@
     }
     
     nav ul li { 
-		flex: 1 1 100%; 
+        flex: 1 1 100%; 
+        padding:0.50em;
 	}
     
     section image {
