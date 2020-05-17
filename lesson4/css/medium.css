@@ -47,12 +47,6 @@
       flex: 1 1 100%; 
     }
 
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
     main, footer{
       width:75%;
   }
