@@ -66,6 +66,9 @@
       background-color: #B39C4D;
     }
 
+    .hero img{
+      width:75%;
+    }
     .weathersummary{
       top: 30px;
       left: 150px;
