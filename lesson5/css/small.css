@@ -212,7 +212,7 @@ article p{
 }
 
 article img {
-    max-width: 50%;
+    width: 100%;
     box-shadow: 0 0 2em black;
 }
     
