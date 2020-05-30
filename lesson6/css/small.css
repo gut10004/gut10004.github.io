@@ -46,6 +46,10 @@ header img{
     width: 50%;
 }
 
+header figure.weatherlogo{
+    float:left;
+}
+
 h1 {
     color: white;
     text-align: center;
