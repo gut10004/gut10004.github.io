@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ["Acme"]}});
+WebFont.load({google: {families: ["sans-serif"]}});
