@@ -120,8 +120,8 @@
   }
 
   .map{
-    display: flex;
-    max-width: 25%;
+    display: block;
+    width:300px;
     float: left;
     margin-right: 2em;
   }
