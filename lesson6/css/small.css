@@ -38,12 +38,13 @@ header {
     margin: 0 auto;
     text-align: center;
     padding: 15px;
-    font-family: "Pacifico", "Brush Script MT", fantasy;
+    font-family: "El Messiri", "Papyrus", sans-serif;
     font-size: 0.8em;
 }
 
 header img{
     width: 50%;
+    border: solid 0.25em #1E2F23;
 }
 
 header picture.weatherlogo{
