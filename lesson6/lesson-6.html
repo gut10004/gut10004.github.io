@@ -49,14 +49,18 @@
                     <source srcset="images/870-wdd230_image_franklinOriginal.jpg" media="(max-width:1069px)">
                     <img src="images/1070-wdd230_image_franklinOriginal.jpg" alt="Idaho mountains">
                 </picture>
-                <section class="weathersummary">
+                <div class="weathersummary">
                   <h3>Weather Summary</h3>
-                  <p><b>Currently: Sunny</b></p>
-                  <p><b>High: <b></b><span id="temperature">76</span>°F</p>
-                  <p><b>Wind Chill: &#8457; </b></p>
-                  <p><b>Humidity: 20% </b></p>
-                  <p><b>Wind Speed: <b></b><span id="windSpeed">15</span>mph</p>
-                </section>
+                  <div id="summary"></div>
+                    <div class="left">Currently:</div>
+                    <div class="right">Sunny</div>
+                    <div class="left">High:</div>
+                    <div class="right"></div><span id="temperature">76</span>°F</div>
+                    <div class="left">Wind Chill: &#8457;</div>
+                    <div class="right">Humidity: 20%</div>
+                    <div class="left">Wind Speed: </div>
+                    <div><span id="windSpeed">15</span>mph</div>
+                </div>
             </div>
             <br><br>
             <div class="forecast">

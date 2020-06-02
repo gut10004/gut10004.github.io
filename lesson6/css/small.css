@@ -126,6 +126,17 @@ h2 {
     line-height: 0.40rem;
 }
 
+#summary {
+    display: grid;
+	grid-template-columns: 1.1fr 1fr;
+	grid-gap: 5px;
+}
+
+.left {
+    text-align: right;
+	font-weight: bold;
+}
+
 #copyright {
     color: white;
 }
