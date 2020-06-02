@@ -197,6 +197,10 @@ nav ul li{
     padding: 0.5em;
 }
 
+.active{
+    color:#1E2F23;
+}
+
 footer {
     background-color: #482728;
     color: #9ae6c2;
