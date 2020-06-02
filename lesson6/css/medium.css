@@ -63,7 +63,7 @@
   }
 
   .active{
-    background-color: #B39C4D;
+    background-color: rgba(234, 246, 255,0.2)
   }
 
   .hero img{
