@@ -137,7 +137,7 @@ h2 {
     grid-column: span 7;
 }
 
-div.right {
+.right{
     grid-column: span 5;
 }
 
