@@ -236,6 +236,10 @@ article img {
     max-width: 50%;
     box-shadow: 0 0 2em black;
 }
+
+article a{
+    color:black;
+}
     
 article {
     display: block;
