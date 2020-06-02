@@ -115,6 +115,7 @@ h2 {
 
 }
 .weathersummary{
+    width: 200px;
     position: absolute;
     top: 10px;
     left: 30px;
@@ -133,7 +134,7 @@ h2 {
 }
 
 .left {
-    text-align: right;
+    text-align: left;
 	font-weight: bold;
 }
 
