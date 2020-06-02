@@ -126,6 +126,11 @@ h2 {
     line-height: 0.50rem;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 8.33%));
+}
+
 .left {
     text-align: left;
     font-weight: bold;
