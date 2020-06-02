@@ -132,8 +132,8 @@ h2 {
     grid-column: span 7;
 }
 
-.right {
-    grid-column: span 6;
+div.right {
+    grid-column: span 5;
 }
 
 #copyright {
