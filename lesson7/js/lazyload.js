@@ -11,7 +11,7 @@ const loadImages= (image)=>{
 };
 
 const imgOptions={
-    threshold:0
+    threshold:1
 };
 
 if('IntersectionObserver' in window) {
