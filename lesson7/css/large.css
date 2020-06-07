@@ -25,5 +25,11 @@
 		flex: 1 1 100%; 
 	}
     
+    .gallery-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
     
+    picture:hover{
+        box-shadow: 0 0 50px #400;
+    }
 }
