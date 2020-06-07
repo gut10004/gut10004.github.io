@@ -16,13 +16,6 @@ main{
     max-width: 350px;
 }
 
-div {
-	display: grid;
-	grid-template-columns: 1fr;
-	max-width: 800px;
-	margin: auto;
-}
-
 img {
     border:1px solid #333;
     padding: 2px;
