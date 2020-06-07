@@ -183,12 +183,14 @@ nav a {
     display: none;
 }
 
+
 .contactinfo{
     background-color: black;
     color: white;
     padding: 2em;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: left;
 }
 
