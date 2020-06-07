@@ -16,7 +16,7 @@ main{
     max-width: 350px;
 }
 
-img {
+main img {
     border:2px solid #000000;
     padding: 2px;
     filter: blur(0em);
