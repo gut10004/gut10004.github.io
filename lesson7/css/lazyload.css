@@ -8,6 +8,14 @@ h1{
     text-align: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 350px;
+}
+
 div {
 	display: grid;
 	grid-template-columns: 1fr;
