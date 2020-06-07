@@ -12,16 +12,6 @@ body {
 
 /*phone view*/
 
-img {
-    border:1px solid #333;
-    padding: 2px;
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-
-img[data-src] {
-    filter: blur(0.2em);
-}
 
 #banner{
     color:#1E2F23;
