@@ -6,12 +6,14 @@
 }
 
 caption{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
+    padding: 1em 1em 1em 1em;
+    background-color: #7fb9c2;
 }
 
 table{
-    background-color: #7fb9c2;
+    background-color: #628ca6;
     border-collapse: collapse;
     margin: 0 auto;
     margin-top: 15px;
@@ -31,23 +33,24 @@ table,
 }
 
 body{
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 tbody{
-  background: #e7ffed;
+  background-color:var(--row2);
 }
 
 tbody tr:nth-child(even){
-  background: #e7f0ed;
+  background-color:var(--row1);
 }
 
 tbody tr:nth-child(1){
-  background: #628ca6;
-  color: white;
-  font-weight: bold;
   font-size: 1em;
+}
+
+tbody td{
+
 }
 
 tfoot td{
@@ -61,7 +64,13 @@ tfoot td{
 }
 
 table td{
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 1.5em;
+    padding: 1em 1em 1em 1em;
+}
+
+thead td{
+    color: white;
+    font-weight: bold;
 }
 
 /*
