@@ -5,6 +5,11 @@
   --row2: #e7ffed;
 }
 
+caption{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 table{
     background-color: #7fb9c2;
     border-collapse: collapse;
@@ -26,7 +31,7 @@ table,
 }
 
 body{
-  max-width: 900px;
+  width: 900px;
   margin: 0 auto;
 }
 
