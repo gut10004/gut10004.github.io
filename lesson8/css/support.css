@@ -3,6 +3,7 @@
 :root{
     --row1: #e7f0ed;
     --row2: #e7ffed;
+    --font: "Ubuntu", sans-serif;
 }
 
 caption{
@@ -33,7 +34,7 @@ table,
 }
 
 body{
-    font-family: "Ubuntu", sans-serif;
+    font-family: var(--font);
     width: 1000px;
     margin: 0 auto;
 }
