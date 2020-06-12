@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 :root{
-  --row1: #e7f0ed;
-  --row2: #e7ffed;
+    --row1: #e7f0ed;
+    --row2: #e7ffed;
 }
 
 caption{
@@ -33,29 +33,26 @@ table,
 }
 
 body{
-  width: 1000px;
-  margin: 0 auto;
+    font-family: "Ubuntu", sans-serif;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 tbody{
-  background-color:var(--row2);
+    background-color:var(--row2);
 }
 
 tbody tr:nth-child(even){
-  background-color:var(--row1);
+    background-color:var(--row1);
 }
 
 tbody tr:nth-child(1){
-  font-size: 1em;
-}
-
-tbody td{
-
+    font-size: 1em;
 }
 
 tfoot td{
-  font-size: 1.5em;
-  padding: 1em 1em 1em 1em;
+    font-size: 1.5em;
+    padding: 1em 1em 1em 1em;
 }
 
 #NovSalesGoal{
