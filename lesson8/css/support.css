@@ -40,15 +40,11 @@ body{
 }
 
 tbody{
-    background-color:var(--row2);
-}
-
-tbody tr:nth-child(even){
     background-color:var(--row1);
 }
 
-tbody tr:nth-child(1){
-    font-size: 1em;
+tbody tr:nth-child(even){
+    background-color:var(--row2);
 }
 
 tfoot td{
