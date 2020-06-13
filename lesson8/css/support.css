@@ -38,6 +38,7 @@ body{
 }
 
 div.container{
+    margin:auto;
     width: 100%;
 }
 
