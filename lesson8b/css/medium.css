@@ -1,0 +1,81 @@
+/*tablet viewport*/
+@media only screen and (min-width: 38em) {
+    #banner{
+      font-size: 1.50em;
+      padding: 0.75em;
+    }
+    
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    header {
+      max-width: 100%;
+    }
+  
+    header{
+      font-size: 1.25rem;
+    }
+  
+    header img{
+      width: 90%;
+    }
+    
+    
+    
+    
+    h1 {
+      font-size: 50px;
+    }
+    
+    nav {
+      width:100%;
+    }
+    
+    .navigation {
+      display: flex;
+    }
+  
+    .navigation li {
+      display: block; 
+      flex: 1 1 100%;
+    }
+  
+    .navigation li:first-child{
+      display: none;
+    }
+  
+    nav ul li { 
+      float:left;
+      flex: 1 1 100%; 
+    }
+  
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    main, footer{
+      width:75%;
+    }
+  
+    .active{
+      background-color: rgba(234, 246, 255,0.2)
+    }
+  
+    
+
+    .gallery-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  
+    .map{
+      display: block;
+      width:300px;
+      float: left;
+      margin-right: 2em;
+    }
+  
+  }
