@@ -7,9 +7,9 @@
 }
 
 caption{
-    font-size: 3em;
+    font-size: x-large;
     font-weight: bold;
-    padding: 1em 1em 1em 1em;
+    padding: 0.25em 0.25em 0.25em 0.25em;
     background-color: #7fb9c2;
 }
 
@@ -52,7 +52,7 @@ tbody tr:nth-child(1){
 }
 
 tfoot{
-    font-size: 1.5em;
+    font-size: small;
     padding: 1em 1em 1em 1em;
 }
 
@@ -62,7 +62,7 @@ tfoot{
 }
 
 table td{
-    font-size: larger;
+    font-size: large;
     padding: 1em 1em 1em 1em;
 }
 
