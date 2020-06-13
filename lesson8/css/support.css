@@ -37,8 +37,8 @@ body{
     font-family: var(--font);
 }
 
-.container{
-
+div.container{
+    width: 100%;
 }
 
 tbody{
