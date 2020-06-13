@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 :root{
-    --row1: #e7f0ed;
-    --row2: #e7ffed;
+    --odds: #e7f0ed;
+    --evens: #e7ffed;
     --font: "Ubuntu", sans-serif;
 }
 
@@ -43,11 +43,11 @@ div.container{
 }
 
 tbody{
-    background-color:var(--row1);
+    background-color:var(--odds);
 }
 
 tbody tr:nth-child(even){
-    background-color:var(--row2);
+    background-color:var(--evens);
 }
 
 tfoot td{
