@@ -51,7 +51,7 @@ tbody tr:nth-child(1){
     font-size: 1em;
 }
 
-tfoot td{
+tfoot{
     font-size: 1.5em;
     padding: 1em 1em 1em 1em;
 }
