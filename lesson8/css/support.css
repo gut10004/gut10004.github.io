@@ -62,13 +62,14 @@ tfoot td{
 }
 
 table td{
-    font-size: 1.5em;
+    font-size: larger;
     padding: 1em 1em 1em 1em;
 }
 
 thead td{
     color: white;
     font-weight: bold;
+    font-size: x-large;
 }
 
 /*
