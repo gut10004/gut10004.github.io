@@ -35,8 +35,10 @@ table,
 
 body{
     font-family: var(--font);
-    width: 1000px;
-    margin: 0 auto;
+}
+
+.container{
+
 }
 
 tbody{
