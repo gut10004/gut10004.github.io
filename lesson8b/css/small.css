@@ -177,9 +177,13 @@ footer a:hover {
 }
 
 fieldset{
-    margin: auto;
+    margin: 1em 0;
     border: solid 5px black;
     padding: 1em;
+}
+
+input.block{
+    display: block;
 }
 
 legend{
@@ -201,12 +205,24 @@ label span{
     color: #482728;
 }
 
-label input{
-    display: block;
+label input,
+select,
+textarea{
     padding: 0.25em 0.50em 0.25em 0.50em ;
     border-radius: 10px;
-    border: solid 2px #1E2F23;
+    border: solid 1.5px #1E2F23;
 }
+
+textarea{
+    width: 100%;
+}
+
+.column{
+    padding: 2em;
+}
+
+
+
 
 
 
