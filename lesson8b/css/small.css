@@ -174,3 +174,31 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
 }
+
+fieldset{
+    margin: auto;
+    border: solid 5px black;
+    padding: 1em;
+}
+
+legend{
+    background-color: #734B5E;
+    margin: auto;
+}
+
+label{
+    color: #1E2F23;
+}
+
+span{
+    color: red;
+}
+
+#rangevalues{
+    color: #482728;
+}
+
+
+
+
+
