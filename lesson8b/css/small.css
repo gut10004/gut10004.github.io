@@ -222,18 +222,16 @@ textarea{
 }
 
 #button{
-    background-color: gold;
     color: black;
     padding: 1em;
-    border-radius: 0.50em;
+    border-radius: 2em;
     width: 25%;
     font-size: large;
     font-weight: 500;
-    border: solid;
 }
 
 input[type="submit"]:hover{
-    background-color: #9ae6c2;
+    background-color: gold;
 }
 
 
