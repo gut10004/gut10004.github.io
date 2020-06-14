@@ -7,7 +7,7 @@ body {
     background-color: #F9F8F2 ; 
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -194,8 +194,12 @@ span{
     color: red;
 }
 
-#rangevalues{
+span.rangevalues{
     color: #482728;
+}
+
+label input{
+    display: block;
 }
 
 
