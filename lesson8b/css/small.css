@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
+    font-family: "El Messiri", "Papyrus", sans-serif;
 }
 
 
@@ -188,19 +189,25 @@ legend{
 
 label{
     color: #1E2F23;
+    font-size: large;
+    font-weight: 600;
 }
 
-span{
+label span{
     color: red;
 }
 
-span.rangevalues{
+.rangevalues{
     color: #482728;
 }
 
 label input{
     display: block;
+    padding: 0.25em 0.50em 0.25em 0.50em ;
+    border-radius: 10px;
+    border: solid 2px #1E2F23;
 }
+
 
 
 
