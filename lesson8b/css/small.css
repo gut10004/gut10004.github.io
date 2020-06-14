@@ -1,6 +1,4 @@
 /*phone viewport*/
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
 
 
 body {
@@ -214,7 +212,7 @@ textarea{
 }
 
 textarea{
-    width: 100%;
+    width: 90%;
 }
 
 .column{
