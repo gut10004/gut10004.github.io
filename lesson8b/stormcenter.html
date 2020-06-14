@@ -48,25 +48,30 @@
 
                 <form method="get" action="thanks.html" autocomplete="on">
                     <fieldset class="column">
-                        <label><span>*</span>full name
+                        <label><span>*</span>Full name:
                             <input type="text" name="name" placeholder="full name"
                                 pattern="[A-Za-z]{2,}\s[A-Za-z]{3,}|[A-Za-z]{3,}\s[A-Za-z]{2,}" required>
-                                <br><small> Five characters minimum.</small>
+                                <small> Five characters minimum.</small>
                         </label>
-                        <label>email:
+                        <br><br>
+                        <label>Email:
                             <input type="email" name="email" placeholder="youremail@gmail.com">
                         </label>
-                        <label><span>*</span>phone number
+                        <br><br>
+                        <label><span>*</span>Phone number:
                             <input type="tel" name="phone" placeholder="(123)123-1234" required>
                         </label>
-                        <label><span>*</span>zip code
+                        <br><br>
+                        <label><span>*</span>Zip code:
                             <input type="number" name="zip" placeholder="54321" required>
                         </label>
+                        <br><br>
                     </fieldset>
                     <fieldset class="column">
                         <label>Storm date:
                             <input type="date" name="stormDate">
                         </label>
+                        <br><br>
                         <label>Storm type:
                             <input name="stormType" list="stormType">
                             <datalist id="stormType">
@@ -77,6 +82,7 @@
                                 <option value="Tornado">
                             </datalist>
                         </label>
+                        <br><br>
                         <label for="rating">storm severity on a scale from 1-10
                             <input type="range" id="rating" value="1" min="1" max="10" step="1" list="rangeMarks"
                                 oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -95,6 +101,7 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
+                        <br><br>
                         <label>storm region:
                             <select name="stormRegion">
                                 <option value="" disabled selected>Select Region</option>
@@ -110,26 +117,25 @@
                             <input type="radio" name="answeryes" value="yes">
                             Yes
                         </label>
+                        <br><br>
                         <label>
                             <input type="radio" name="answermaybe" value="maybe">
                             Maybe
                         </label>
+                        <br><br>
                         <label>
                             <input type="radio" name="answerno" value="no">
                             No
                         </label>
+                        <br><br>
+                        <label>Additional information or comments:
+                            <br>
+                            <textarea placeholder="Any additional information or comments 
+                            about the storm or unusual weather"></textarea>
+                        </label>
+                        <br><br>
+                        <input type="submit" value="Submit">
                     </fieldset>
-                    <label>additional info or comments:
-                        <br>
-                        <textarea placeholder="Any additional information or comments 
-                        about the storm or unusual weather"
-                        
-                        
-                        
-                        
-                        ></textarea>
-                    </label>
-                    <input type="submit" value="Submit">
                 </form>
             </main>
         </div>
