@@ -85,5 +85,9 @@
       width: 25%;
       font-size: large;
     }
+
+    fieldset{
+      margin: 1em 0;
+    }
   
   }
