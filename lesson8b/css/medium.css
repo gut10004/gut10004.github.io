@@ -78,5 +78,12 @@
       float: left;
       margin-right: 2em;
     }
+
+    #button{
+      padding: 1em;
+      border-radius: 2em;
+      width: 25%;
+      font-size: large;
+    }
   
   }
