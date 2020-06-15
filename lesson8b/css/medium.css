@@ -80,6 +80,7 @@
     }
 
     #button{
+      margin: auto;
       padding: 1em;
       border-radius: 2em;
       width: 25%;

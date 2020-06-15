@@ -175,7 +175,7 @@ footer a:hover {
 
 fieldset{
     width: 100%;
-    margin: 1em 0;
+    margin: 1em 1.25em;
     border: solid 5px black;
     padding: 1em;
 }
@@ -220,7 +220,7 @@ textarea{
 }
 
 #button{
-    margin:auto;
+    margin: 1em 1.25em;
     color: black;
     padding: 1em;
     border-radius: 2em;
@@ -241,7 +241,9 @@ input[type="submit"]:hover{
     color: green;
 }
 
-
+h3{
+    margin: 1em 1.25em;
+}
 
 
 
