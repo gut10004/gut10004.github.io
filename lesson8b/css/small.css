@@ -21,7 +21,6 @@ body {
 
 main {
     max-width: 60%;
-    margin: auto;
     display: block;
     grid-template-columns: 1fr;
     font-size: 1rem;
