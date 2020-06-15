@@ -90,5 +90,10 @@
     fieldset{
       margin: 1em 0;
     }
+
+    h2,
+    h3{
+      margin: 1em 0;
+    }
   
   }

@@ -64,6 +64,10 @@ h2 {
     margin: 1em;
 }
 
+h3{
+    margin: 1em 1.25em;
+}
+
 #copyright {
     color: white;
 }
