@@ -185,6 +185,7 @@ fieldset{
 
 input.block{
     display: block;
+    align-items: center;
 }
 
 legend{
