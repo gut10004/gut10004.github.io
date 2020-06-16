@@ -48,6 +48,7 @@
 
                 <form method="get" action="thanks.html" autocomplete="on">
                     <fieldset class="column">
+                        <legend>Personal information</legend>
                         <label><span>*</span>Full name:
                             <input class= block type="text" name="name" placeholder="full name"
                                 pattern="[A-Za-z]{2,}\s[A-Za-z]{3,}|[A-Za-z]{3,}\s[A-Za-z]{2,}" required>
@@ -68,6 +69,7 @@
                         <br><br>
                     </fieldset>
                     <fieldset class="column">
+                        <legend>Storm information</legend>
                         <label>Storm date:
                             <input class= block type="date" name="stormDate">
                         </label>
@@ -101,7 +103,7 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
-                        <br><br>
+                        <br><br><br>
                         <label>Storm region:
                             <select name="region">
                                 <option value="" disabled selected>Select Region</option>
@@ -110,8 +112,7 @@
                                 <option value="Fish Haven">Fish Haven</option>
                             </select>
                         </label>
-                    </fieldset>
-                    <fieldset class="column">
+                        <br><br><br>
                         <label>Are you in danger?
                             <br><br>
                             <input type="radio" name="answeryes" value="yes"> Yes
@@ -124,7 +125,7 @@
                         <label>
                             <input  type="radio" name="answerno" value="no"> No
                         </label>
-                        <br><br>
+                        <br><br><br>
                         <label>Additional information or comments:
                             <br>
                             <textarea placeholder="Write any additional information or comments about the storm or unusual weather here."></textarea>

@@ -248,6 +248,11 @@ h3{
     margin: 1em 1.25em;
 }
 
+legend{
+    background-color: #e8c95d;
+    padding: 1em;
+    border-radius: 1em;
+  }
 
 
 
