@@ -1,0 +1,63 @@
+body{
+    background-color: #145a80;
+	font-family: "Messiri", sans-serif;
+	text-align: center;
+}
+
+
+h1{
+	color: white;
+}
+
+h2{
+	color: #145a80;
+	margin: 8px 0px;
+}
+
+h1, h2{
+	font-family: "Messiri", sans-serif;
+	font-weight: 300;
+}
+
+main div{
+	display: grid;
+	grid-template-columns: 1fr;
+    margin: auto;
+    width: 90%;
+	grid-gap: 5px;
+}
+
+main div section {
+	background-color: white;
+	color: #145a80;
+	padding: 5px;
+}
+
+main div section img{
+	width: 90%;
+}
+
+main div section p{
+	margin: 5px 0px;
+}
+
+footer {
+	background-color: #1F7A8C;
+	color: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/*tablet viewport*/
+@media only screen and (min-width: 38em){
+	main div{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/*computer viewport*/
+@media only screen and (min-width: 60em){
+	main div{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
