@@ -1,6 +1,6 @@
 body{
     background-color: #145a80;
-	font-family: "Messiri", sans-serif;
+	font-family: "Garamond", serif;
 	text-align: center;
 }
 
@@ -15,8 +15,7 @@ h2{
 }
 
 h1, h2{
-	font-family: "Messiri", sans-serif;
-	font-weight: 300;
+	font-weight: bolder;
 }
 
 main div{
@@ -29,7 +28,6 @@ main div{
 
 main div section {
 	background-color: white;
-	color: #145a80;
 	padding: 5px;
 }
 
@@ -38,6 +36,7 @@ main div section img{
 }
 
 main div section p{
+    font-family: "Messiri", sans-serif;
 	margin: 5px 0px;
 }
 
