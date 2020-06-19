@@ -12,7 +12,7 @@ h1{
 
 h2{
 	color: #145a80;
-	margin: 8px 0px;
+	margin-top: 5px;
 }
 
 h1, h2{
@@ -38,7 +38,8 @@ main div section img{
 
 main div section p{
     font-family: "Messiri", sans-serif;
-	margin: 5px 0px;
+    margin: 5px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -46,7 +47,8 @@ footer {
     width:100%;
 	color: white;
 	padding: 20px;
-	margin-top: 60px;
+    margin-top: 60px;
+    font-size: larger;
 }
 
 /*tablet viewport*/
