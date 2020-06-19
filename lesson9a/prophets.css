@@ -1,7 +1,8 @@
 body{
     background-color: #145a80;
 	font-family: "Garamond", serif;
-	text-align: center;
+    text-align: center;
+    margin: 0;
 }
 
 
@@ -23,12 +24,12 @@ main div{
 	grid-template-columns: 1fr;
     margin: auto;
     width: 90%;
-	grid-gap: 5px;
+	grid-gap: 15px;
 }
 
 main div section {
 	background-color: white;
-	padding: 5px;
+	padding: 15px;
 }
 
 main div section img{
@@ -41,10 +42,11 @@ main div section p{
 }
 
 footer {
-	background-color: #145a80;
+    background-color: black;
+    width:100%;
 	color: white;
-	padding: 5px;
-	margin-top: 5px;
+	padding: 15px;
+	margin-top: 15px;
 }
 
 /*tablet viewport*/
