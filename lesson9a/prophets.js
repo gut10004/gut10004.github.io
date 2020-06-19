@@ -1,53 +1,33 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
-
-
-
 fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        console.table(jsonObject);  // temporary checking for valid response and data parsing
-    
-
-
-        const prophets = jsonObject['prophets'];
-
-
-
-        for (let i = 0; i < prophets.length; i++ ) {
-
-
-
-
-        let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-
-
-        let birthPlace=document.createElement("p");
-        let birthDate=document.createElement("p");
-        let image=document.createElement("img");
-
-
-
+  .then(function (response) {
+    return response.json();
+  })
+  
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+      const prophets = jsonObject["prophets"];
+      
+  	for (let i = 0; i <prophets.length; i++){
+  		let card = document.createElement("section");
+		let h2 = document.createElement("h2");
+		let birthPlace = document.createElement("p");
+		let birthDate = document.createElement("p");
+		let image = document.createElement("img");
 
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-
-
+		birthDate.textContent = "Birthdate: " + prophets[i].birthdate;
+        birthPlace.textContent = "Birthplace: " + prophets[i].birthplace;
         
-        birthDate.textContent="Birthdate:" + prophets[i].birthdate;
-        birthPlace.textContent="Birthplace:" + prophets[i]birthplace; 
-        image.setAttribute("src", prophets[i]imageurl);
-        image.setAttribute("alt", (prophets[i].name + ' ' + prophets[i].lastname + " - " + prophets[i].order));
+		image.setAttribute("src", prophets[i].imageurl);
+		image.setAttribute("alt", (prophets[i].name + ' ' + prophets[i].lastname + " - " + prophets[i].order));
 
-        card.appendChild(h2);
-
-        card.appendChild(h2);
-        card.appendChild(birthDate);
-        card.appendChild(birthPlace);
-        card.appendChild(image);
-
-        document.querySelector('div.cards').appendChild(card);
-    }
+		card.appendChild(h2);
+		card.appendChild(birthDate);
+		card.appendChild(birthPlace);
+		card.appendChild(image);
+		
+		document.querySelector("div.cards").appendChild(card);
+  	}
 });
