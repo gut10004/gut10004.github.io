@@ -39,6 +39,7 @@
     .navigation li {
       display: block; 
       flex: 1 1 100%;
+      text-align: center;
     }
   
     .navigation li:first-child{
