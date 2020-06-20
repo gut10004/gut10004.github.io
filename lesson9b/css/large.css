@@ -1,0 +1,35 @@
+/*computer viewport*/
+@media only screen and (min-width: 60em) {
+    body{
+        background-color: #F9F8F2;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    nav ul {
+        display:flex;
+    }
+
+    nav li:hover{
+        background-color: #B39C4D;
+        color: black;
+    }
+    
+    nav ul li { 
+		flex: 1 1 100%; 
+	}
+    
+    .gallery-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    figure:hover{
+        box-shadow: 0 0 50px #1E2F23;
+    }
+}
