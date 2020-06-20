@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Predications</title>
+        <meta name="description" content="Weather Predictions home page">
+        <!--link to favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!--link to google font-->
+        <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+        <!--link files in css folder-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <div id="banner">
+            <p><b>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</b></p>
+        </div>
+        <header>
+            <picture>
+                <source srcset="images/120-weather-logo.jpg" media="(max-width:120px)">
+                <img src="images/weather-logo.png" alt="weather website logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather Predictions</h1>
+                <div class="h1p">Local news and weather predictions at the ready.</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="/lesson9b/index.html">Home</a></li>
+                <li><a href="/lesson6/lesson-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="/lesson8b/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class=container>
+            <main>
+                <h2>Home</h2>
+                
+        <footer>
+            <div class="contactinfo">
+                <div class="contactmethods">
+                <p>
+                    <b>Weather Predictions</b><br>
+                    &#x1F4CD; 30 N 1st E<br>
+                    Preston, ID 83263<br><br>
+                    &#128222; (123)123-1234<br>
+                    &#x2709; wpredictions@wp.com<br><br>
+                    <img src="images/60-facebook.png" alt="facebook">
+                    <img src="images/60-pinterest.png" alt="pinterest">
+                    <img src="images/60-twitter.png" alt="twitter">
+                </p>
+                </div>
+            </div>
+            <div>
+                <!--copyright-->
+                <p id="copyright">&copy; <span id="year"></span> | Yvette Gutierrez | Utah |  <a id="byui"
+                        href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+                <p id="modified">Last modified: <span id="currentDate"></span></p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["El Messiri"]
+                }
+            });
+        </script>
+        <script src="js/webfontload.js"></script>
+        <script src="js/togglemenu.js"></script>
+        <script src="js/modifieddate.js"></script>
+        
+    </body>
+</html>
