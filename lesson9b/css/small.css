@@ -60,6 +60,7 @@ h1 {
 
 h2 {
     color:#1E2F23 ;
+    text-align: center;
     padding: 2px;
     margin: 0.75em;
 }
@@ -176,89 +177,41 @@ footer a:hover {
     box-shadow: 5px 5px 5px black;
 }
 
-fieldset{
-    width: 100%;
-    margin: 1em 1.25em;
-    border: solid 5px black;
-    padding: 1em;
+/*home*/
+article{
+    background-color: white;
+    border: solid 2px black;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	padding: 15px;
 }
 
-input.block{
-    display: block;
-    align-items: center;
-}
-
-legend{
-    background-color: #734B5E;
-    margin: auto;
-}
-
-label{
-    color: #1E2F23;
-    font-size: large;
-    font-weight: 300;
-}
-
-label span{
-    color: #a30a05;
-}
-
-.rangevalues{
-    color: #482728;
-}
-
-label input,
-select,
-textarea{
-    padding: 0.25em 0.50em 0.25em 0.50em ;
-    border-radius: 10px;
-    border: solid 1.5px #1E2F23;
-}
-
-textarea{
-    width: 90%;
-}
-
-.column{
-    padding: 2em;
-}
-
-#button{
-    margin: 1em 1.25em;
-    color: black;
-    padding: 1em;
-    border-radius: 2em;
-    font-size: large;
-    font-weight: 500;
-}
-
-input[type="submit"]:hover{
-    background-color: gold;
-}
-
-#thanksdiv{
-    font-size: x-large;
+article div{
     text-align: center;
+    align-self: center;
+	
 }
 
-.tickmarks{
-    color: green;
+article div p{
+	margin-top: 0px;
+}
+article div p, article h2{
+	text-align: left;
 }
 
-h3{
-    margin: 1em 1.25em;
+section, article{
+	margin: 15px;
 }
 
-legend{
-    background-color: #e8c95d;
-    padding: 1em;
-    border-radius: 1em;
-    font-size: larger;
+section> div{
+	display: grid;
 }
 
-textarea{
-    padding: 1em;
+section>div div{
+	background-color: white;
 }
+
 
 
 

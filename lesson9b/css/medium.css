@@ -23,7 +23,6 @@
     
     
     
-    
     h1 {
       font-size: 50px;
     }
@@ -66,35 +65,24 @@
       background-color: rgba(234, 246, 255,0.2)
     }
   
-    
-
-    .gallery-grid{
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-  
-    .map{
-      display: block;
-      width:300px;
-      float: left;
-      margin-right: 2em;
+    /*home*/
+    article{
+      grid-template-columns: 1fr 2fr;
     }
 
-    #button{
-      margin: auto;
-      padding: 1em;
-      border-radius: 2em;
-      width: 25%;
-      font-size: large;
+    section>div>div{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
     }
 
-    fieldset{
-      margin: 1em 0;
+    section>div>div:nth-child(even){
+      flex-direction: row-reverse;
     }
 
-    h2,
-    h3{
-      margin: 1em 0;
+    section>div>div>div{
+      width:50%;
+      align-self: center;
     }
   
     
