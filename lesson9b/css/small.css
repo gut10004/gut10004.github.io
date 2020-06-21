@@ -183,8 +183,8 @@ article{
     border: solid 2px black;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 15px;
-	padding: 15px;
+	grid-gap: 5px;
+	padding: 5px;
 }
 
 article div{
@@ -201,7 +201,7 @@ article div p, article h2{
 }
 
 section, article{
-	margin: 15px;
+	margin: 5px;
 }
 
 section> div{
