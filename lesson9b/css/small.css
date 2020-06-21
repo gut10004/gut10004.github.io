@@ -207,7 +207,12 @@ section> div{
 }
 
 section>div div{
-	background-color: white;
+    background-color: white;
+    
+}
+
+section div.towns{
+    justify-content: center;
 }
 
 
