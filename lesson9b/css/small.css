@@ -63,7 +63,7 @@ h2 {
     text-align: left;
 }
 
-h3{
+h3 {
     margin: 1em;
 }
 
@@ -191,17 +191,6 @@ article div{
 	
 }
 
-article div p{
-	margin-top: 0px;
-}
-article div p, article h2{
-	text-align: left;
-}
-
-section, article{
-	margin: 5px;
-}
-
 section> div{
 	display: grid;
 }
@@ -213,6 +202,7 @@ section>div div{
 
 section div.towns{
     justify-content: center;
+    text-align: center;
 }
 
 

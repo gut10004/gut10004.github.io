@@ -70,6 +70,10 @@
       grid-template-columns: 1fr 2fr;
     }
 
+    article div{
+      text-align: left;
+    }
+    
     section>div>div{
       display: flex;
       flex-direction: row;
