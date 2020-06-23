@@ -203,4 +203,8 @@ div.container h2{
     text-align: center;
 }
 
+div.container{
+    margin-bottom: 60px;
+}
+
 
