@@ -50,15 +50,13 @@ h1 {
 }
 
 h2 {
-    color:#482728 ;
     text-align: left;
 }
 
-h3 {
-    font-size: 125%;
-    font-weight: bold;
-    color: #482728;
-
+h2,h3{
+    font-family: "Comic Sans MS", sans-serif;
+    color:#482728;
+    font-size: xx-large;
 }
 
 #copyright {
