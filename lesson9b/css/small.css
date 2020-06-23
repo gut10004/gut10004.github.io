@@ -168,7 +168,6 @@ footer a:hover {
 
 /*home*/
 article{
-	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 5px;
 	padding: 20px;
