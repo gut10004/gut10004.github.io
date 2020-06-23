@@ -19,15 +19,6 @@ body {
     padding: 0.25em;
 }
 
-main {
-    max-width: 60%;
-    display: block;
-    grid-template-columns: 1fr;
-    font-size: 1rem;
-    grid-gap: 0.8em;
-    padding: 0.8em;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -213,4 +204,5 @@ section div.towns{
 div.container h2{
     text-align: center;
 }
+
 
