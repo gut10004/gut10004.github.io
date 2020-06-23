@@ -179,7 +179,8 @@ article picture{
 
 
 article div{
-	background-color: white;
+    background-color: white;
+    padding: 10px;
 }
 
 section> div{
@@ -189,7 +190,7 @@ section> div{
 
 section>div div{
     background-color: white;
-    
+    padding: 0px 10px;
 }
 
 section div.towns{
