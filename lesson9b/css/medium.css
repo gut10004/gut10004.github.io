@@ -78,7 +78,6 @@
       display: flex;
       flex-direction: row;
       align-content: center;
-      padding: 0px 10px;
     }
 
     section>div>div:nth-child(even){
@@ -89,6 +88,8 @@
       align-self: center;
     }
   
-    
+    section div.img{
+      display: flex;
+    }
 
   }
