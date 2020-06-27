@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Preston Weather</title>
+        <meta name="description" content="Preston current weather and 10-day weather forecast">
+        <!--link to favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!--link to google font-->
+        <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+        <!--link files in css folder-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <div id="banner">
+            <p><b>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</b></p>
+        </div>
+        <header>
+            <picture>
+                <source srcset="images/120-weather-logo.jpg" media="(max-width:120px)">
+                <img src="images/weather-logo.png" alt="weather website logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather Predictions</h1>
+                <p class="h1p">Local news and weather predictions at the ready.</p>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li class="active"><a href="/lesson9b/index.html">Home</a></li>
+                <li><a href="/lesson10b/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8b/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class=container>
+            <main>
+                <article>
+                    <div>
+                        <div>
+                            <h2>News</h2>
+                            <picture>
+                                <source srcset="images/325newspreston.jpg" media="(max-width:592px)">
+                                <source srcset="images/536newspreston.jpg" media="(max-width:944px)">
+                                <img src="images/546newspreston.jpg" alt="derailed train">
+                            </picture>
+                        </div>
+                        <div>
+                            <h2>Train Derailed</h2>
+                            <p>SODA SPRINGS — A Union Pacific train derailed Wednesday night in 
+                                rural Caribou County between Bancroft and Soda Springs.Thirty-one 
+                                of the trains cars derailed at around 9:30 p.m., Union Pacific 
+                                spokeswoman Raquel Espinoza told EastIdahoNews.com. She reports most 
+                                of the cars were
+                                <a href="https://www.eastidahonews.com/2020/06/crews-cleaning-up-train-derailment-in-eastern-idaho/">Continue Reading</a>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+        
+                <section>
+                    <h2>The Towns</h2>
+                    <div class="towns">
+                    </div>
+                </section>
+            </main>
+        </div>       
+        <footer>
+            <div class="contactinfo">
+                <div class="contactmethods">
+                <p>
+                    <b>Weather Predictions</b><br>
+                    &#x1F4CD; 30 N 1st E<br>
+                    Preston, ID 83263<br><br>
+                    &#128222; (123)123-1234<br>
+                    &#x2709; wpredictions@wp.com<br><br>
+                    <img src="images/60-facebook.png" alt="facebook">
+                    <img src="images/60-pinterest.png" alt="pinterest">
+                    <img src="images/60-twitter.png" alt="twitter">
+                </p>
+                </div>
+            </div>
+            <div>
+                <!--copyright-->
+                <p id="copyright">&copy; <span id="year"></span> | Yvette Gutierrez | Utah |  <a class="byui"
+                        href="https://www.byui.edu/online">BYUI Online Learning</a> | <a class="byui"
+                        href="https://wireframe.cc/IsyApH">Large Wireframe</a> | <a class="byui"
+                        href="https://wireframe.cc/u7lfp2">Medium Wireframe</a> | <a class="byui"
+                        href="https://wireframe.cc/UzWw2h">Small Wireframe</a></p>
+                <p id="modified">Last modified: <span id="currentDate"></span></p>
+            </div>
+        </footer>
+        
+        <script src="js/togglemenu.js"></script>
+        <script src="js/modifieddate.js"></script>
+        <script src="js/towns.js"></script>
+        
+    </body>
+
+</html>
