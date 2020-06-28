@@ -1,18 +1,18 @@
-const currentURL='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
+const liveURL='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
 const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
 
 
-fetch(currentURL)
+fetch(liveURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    let currentConditions = document.getElementsByClassName('right')[0];
-    let currentTemp = document.getElementsByClassName('right')[1];
+    let liveConditions = document.getElementsByClassName('right')[0];
+    let liveTemp = document.getElementsByClassName('right')[1];
     let high = document.getElementsByClassName('right')[2];
     let humidity = document.getElementsByClassName('right')[4];
     let wind = document.getElementsByClassName('right')[5];
 
-  	currentConditions.textContent = jsObject.weather[0].description;
-  	currentTemp.textContent = parseInt(jsObject.main.temp) + "°F";
+  	liveConditions.textContent = jsObject.weather[0].description;
+    liveTemp.textContent = parseInt(jsObject.main.temp) + "°F";
   	high.textContent = parseInt(jsObject.main.temp_max) + "°F";
   	humidity.textContent = parseInt(jsObject.main.humidity)+"%";
   	wind.textContent = parseInt(jsObject.wind.speed) +" mph";
