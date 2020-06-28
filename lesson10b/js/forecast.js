@@ -9,8 +9,10 @@ fetch(apiURL)
 
         console.log(fivedayforecast);
 
+        let day= 0;
         fivedayforecast.forEach(forecast => {
-            document.getElementById(`forecast${}`).textContent= forecast.main.temp;
-        }
+            document.getElementById(`forecast${day+1}`).textContent= forecast.main.temp;
+            day++;
+        });
     });
 
