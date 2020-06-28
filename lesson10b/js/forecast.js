@@ -3,10 +3,14 @@ const apiURL= 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=
 fetch(apiURL)
 .then((response) => response.json())
   .then((jsObject) => {
-      console.table(jsObject);
+      console.log(jsObject);
+
+        const fivedayforecast= jsObject.list.filter(x => x.dt_txt.includes("12:00:00"));
+
+        console.log(fivedayforecast);
+
+        fivedayforecast.forEach(forecast => {
+            document.getElementById(`forecast${}`).textContent= forecast.main.temp;
+        }
     });
-
-    const fivedayforecast= jsObject.list.filter(x=>x.dt_txt.includes("12:00:00"));
-
-    console.log(fivedayforecast);
 
