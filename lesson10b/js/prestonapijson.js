@@ -59,9 +59,7 @@ fetch(forecastURL)
 
                 }
             }
-            
             entryCount++;
-        }
 });
 
 function dayToStr(num){
