@@ -25,23 +25,32 @@ function windChillCalc(temperature, windSpeed) {
   
 }
 
+
+
+
+
+
 const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
 
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        let days = 0;
+    
         const fivedayforecast= jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
-        const weekdays= ['Sun', 'Mon', 'Tue', 'Thu', 'Fri', 'Sat'];
+        const weekdays= ["Sun", "Mon", "Tue", "Thu", "Fri", "Sat"];
 
         let day= 0;
         fivedayforecast.forEach(forecast => {
             let d= new Date(forecast.dt_txt);
-
-                const imagesrc= `https://openweathermap.org/img/wn/${fivedayforecast.weather[0].icon}`;
-
+                document.getElementById(`temp${day + 1}`).innerHTML= `${forecast.main.temp.toFixed(0)}&deg;F`;
+                document.getElementById(`day${day + 1}`).textContent= weekdays[d.getDay()];
+                
+                const imagesrc= `https://openweathermap.org/img/wn/${forecast.weather[0].icon}`;
+                const desc= forecast.weather[0].description;
+                document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
+                document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
             
-            days++;
+            day++;
         });
 });
