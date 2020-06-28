@@ -1,92 +1,47 @@
 const liveURL='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
-const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
-
 
 fetch(liveURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    let liveConditions = document.getElementsByClassName('right')[0];
-    let liveTemp = document.getElementsByClassName('right')[1];
-    let high = document.getElementsByClassName('right')[2];
-    let humidity = document.getElementsByClassName('right')[4];
-    let wind = document.getElementsByClassName('right')[5];
+      console.log(jsObject);
+      document.getElementById("currently").textContent= jsObject.list[0].weather[0].description;
+      document.getElementById("temperature").textContent=jsObject.list[6].main.temp.toFixed(0);
+      document.getElementById("humidity").textContent=jsObject.list[0].main.humidity;
+      document.getElementById("windSpeed").textContent=jsObject.list[0].wind.speed;
 
-        liveConditions.textContent = jsObject.weather[0].description;
-        liveTemp.textContent = parseInt(jsObject.main.temp) + "°F";
-        high.textContent = parseInt(jsObject.main.temp_max) + "°F";
-        humidity.textContent = parseInt(jsObject.main.humidity)+"%";
-        wind.textContent = parseInt(jsObject.wind.speed) + "mph";
-    windChill(jsObject.main.temp, jsObject.wind.speed);
+    windChillCalc(jsObject.main.temp, jsObject.wind.speed);
 });
+
+function windChillCalc(temperature, windSpeed) {
+    if(windSpeed > 3 && temperature <= 50) {
+      let chill= 35.74 + 0.6215 * temperature - 35.75 * (Math.pow(windSpeed, 0.16)) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
+      chill= chill.toFixed(0) + "&deg;F";
+      document.getElementById("windChillOutput")[3].innerHTML= chill;
+    }
+  
+    else{
+      document.getElementById("windChillOutput")[3].innerHTML= "N/A"
+    }
+  
+}
+
+const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
 
 fetch(forecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        let dayCount = 0;
-        let entryCount = 0;
-        while( entryCount<jsObject.list.length && dayCount<5){
-            if(jsObject.list[entryCount].dt_txt.split(" ")[1] == "18:00:00"){
-                const year = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[0].split("-")[0]);
-                const month = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[0].split("-")[1])-1;
-                const day = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[0].split("-")[2]);
-                const hour = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[1].split(":")[0]);
-                const min = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[1].split(":")[1]);
-                const sec = parseInt(jsObject.list[entryCount].dt_txt.split(" ")[1].split(":")[2]);
-                
-                let date = new Date(year, month, day, hour, min, sec);
-                let dayNum = date.getDay();
-                let dayStr = dayToStr(dayNum); 
+        let days = 0;
+        const fivedayforecast= jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
-                const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.list[entryCount].weather[0].icon + '.png';
-                const imagealt = jsObject.list[entryCount].weather[0].main;
+        const weekdays= ['Sun', 'Mon', 'Tue', 'Thu', 'Fri', 'Sat'];
 
-                const temp = parseInt(jsObject.list[entryCount].main.temp)+ "°F";
+        let day= 0;
+        fivedayforecast.forEach(forecast => {
+            let d= new Date(forecast.dt_txt);
 
-                const week = document.getElementsByClassName("day")[dayCount];
-                const icon= document.getElementsByClassName("icon")[dayCount];
-                const weekTemp = document.getElementsByClassName("fiveDay")[dayCount];
-                
-                const img = document.createElement("img");
+                const imagesrc= `https://openweathermap.org/img/wn/${fivedayforecast.weather[0].icon}`;
 
-                week.textContent = dayStr;
-                
-                icon.src = imagesrc;
-                icon.alt = imagealt;
-                
-                icon.appendChild(icon);
-                    weekTemp.textContent = temp;
-                    dayCount++;
-
-                }
-            }
-            entryCount++;
+            
+            days++;
+        });
 });
-
-function dayToStr(num){
-  	switch(num){
-  		case 0:
-  			return "Sun"
-  		case 1:
-  			return "Mon"
-  		case 2:
-  			return "Tue"
-  		case 3:
-  			return "Wed"
-  		case 4: 
-  			return "Thur"
-  		case 5:
-  			return "Fri"
-  		case 6:
-  			return "Sat"
-  	}
-}
-
-function windChill(temp, wind){
-  if(wind > 3 && temp <= 50){
-    let windChill = 35.74 + 0.6215*temp - 35.75*(Math.pow(wind, 0.16))+ 0.4275*temp*Math.pow(wind, 0.16);
-    windChill = windChill.toFixed(0)+"&deg;F";
-    document.getElementsByClassName("right")[3].innerHTML = windChill;
-  }else{
-    document.getElementsByClassName("right")[3].innerHTML = "N/A"
-  }
-}
