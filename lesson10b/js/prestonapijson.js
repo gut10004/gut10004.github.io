@@ -11,11 +11,11 @@ fetch(liveURL)
     let humidity = document.getElementsByClassName('right')[4];
     let wind = document.getElementsByClassName('right')[5];
 
-  	liveConditions.textContent = jsObject.weather[0].description;
-    liveTemp.textContent = parseInt(jsObject.main.temp) + "°F";
-  	high.textContent = parseInt(jsObject.main.temp_max) + "°F";
-  	humidity.textContent = parseInt(jsObject.main.humidity)+"%";
-  	wind.textContent = parseInt(jsObject.wind.speed) +" mph";
+        liveConditions.textContent = jsObject.weather[0].description;
+        liveTemp.textContent = parseInt(jsObject.main.temp) + "°F";
+        high.textContent = parseInt(jsObject.main.temp_max) + "°F";
+        humidity.textContent = parseInt(jsObject.main.humidity)+"%";
+        wind.textContent = parseInt(jsObject.wind.speed) + "mph";
     windChill(jsObject.main.temp, jsObject.wind.speed);
 });
 
@@ -46,7 +46,7 @@ fetch(forecastURL)
                 const icon= document.getElementsByClassName("icon")[dayCount];
                 const weekTemp = document.getElementsByClassName("fiveDay")[dayCount];
                 
-                const icon = document.createElement("img");
+                const img = document.createElement("img");
 
                 week.textContent = dayStr;
                 
