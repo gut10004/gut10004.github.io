@@ -9,7 +9,6 @@ fetch(liveURL)
       document.getElementById("humidity").textContent=jsObject.main.humidity;
       document.getElementById("windSpeed").textContent=jsObject.wind.speed;
 
-    windChillCalc(jsObject.main.temp, jsObject.wind.speed);
 });
 
 function windChillCalc(temperature, windSpeed) {
