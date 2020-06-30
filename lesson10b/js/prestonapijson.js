@@ -1,4 +1,4 @@
-const liveURL='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
+const liveURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a5eb041f3d0e6ff0514a6d37280cd339&units=imperial";
 
 fetch(liveURL)
   .then((response) => response.json())
@@ -20,7 +20,7 @@ function windChillCalc(temperature, windSpeed) {
     }
   
     else{
-      document.getElementById("windChillOutput")[3].innerHTML= "N/A"
+      document.getElementById("windChillOutput")[3].innerHTML= "N/A";
     }
   
 }
@@ -30,7 +30,7 @@ function windChillCalc(temperature, windSpeed) {
 
 
 
-const forecastURL='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=4221f5ae2af828109b1fbb5b1ed68248&units=imperial';
+const forecastURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f83583a6ff92c0dc1b81953ae42984d6&units=imperial";
 
 fetch(forecastURL)
     .then((response) => response.json())
@@ -45,11 +45,11 @@ fetch(forecastURL)
             let d= new Date(forecast.dt_txt);
                 document.getElementById(`temp${day + 1}`).innerHTML= `${forecast.main.temp.toFixed(0)}&deg;F`;
                 document.getElementById(`day${day + 1}`).textContent= weekdays[d.getDay()];
-                
+
                 const imagesrc= `https://openweathermap.org/img/wn/${forecast.weather[0].icon}`;
                 const desc= forecast.weather[0].description;
-                document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
-                document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
+                document.getElementById(`icon${day + 1}`).setAttribute("src", imagesrc);
+                document.getElementById(`icon${day + 1}`).setAttribute("alt", desc);
             
             day++;
         });
