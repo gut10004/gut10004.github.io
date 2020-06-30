@@ -24,7 +24,7 @@ fetch(liveURL)
           }
         
           else{
-            document.getElementById("windChillOutput").innerHTML= "N/A";
+            return "N/A";
           }
       }
 });
