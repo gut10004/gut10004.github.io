@@ -4,10 +4,10 @@ fetch(liveURL)
   .then((response) => response.json())
   .then((jsObject) => {
       console.log(jsObject);
-      document.getElementById("currently").textContent= jsObject.list[0].weather[0].description;
-      document.getElementById("temperature").textContent=jsObject.list[6].main.temp.toFixed(0);
-      document.getElementById("humidity").textContent=jsObject.list[0].main.humidity;
-      document.getElementById("windSpeed").textContent=jsObject.list[0].wind.speed;
+      document.getElementById("currently").textContent= jsObject.weather[0].description;
+      document.getElementById("temperature").textContent=jsObject.main.temp;
+      document.getElementById("humidity").textContent=jsObject.main.humidity;
+      document.getElementById("windSpeed").textContent=jsObject.wind.speed;
 
     windChillCalc(jsObject.main.temp, jsObject.wind.speed);
 });
