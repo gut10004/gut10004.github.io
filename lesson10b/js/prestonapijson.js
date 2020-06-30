@@ -9,20 +9,25 @@ fetch(liveURL)
       document.getElementById("humidity").textContent=jsObject.main.humidity;
       document.getElementById("windSpeed").textContent=jsObject.wind.speed;
 
-});
+      let temperature = parseFloat(document.getElementById("temperature").textContent);
+      let windSpeed = parseFloat(document.getElementById("windSpeed").textContent);
 
-function windChillCalc(temperature, windSpeed) {
-    if(windSpeed > 3 && temperature <= 50) {
-      let chill= 35.74 + 0.6215 * temperature - 35.75 * (Math.pow(windSpeed, 0.16)) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
-      chill= chill.toFixed(0) + "&deg;F";
-      document.getElementById("windChillOutput")[3].innerHTML= chill;
-    }
-  
-    else{
-      document.getElementById("windChillOutput")[3].innerHTML= "N/A";
-    }
-  
-}
+      let windChill = windChillCalc(temperature, windSpeed);
+
+      document.getElementById("windChillOutput").textContent = windChill;
+
+      function windChillCalc(temperature, windSpeed) {
+          if(windSpeed > 3 && temperature <= 50) {
+            let chill= 35.74 + 0.6215 * temperature - 35.75 * (Math.pow(windSpeed, 0.16)) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
+            chill= chill.toFixed(0) + "&deg;F";
+            document.getElementById("windChillOutput").innerHTML= chill;
+          }
+        
+          else{
+            document.getElementById("windChillOutput").innerHTML= "N/A";
+          }
+      }
+});
 
 
 
