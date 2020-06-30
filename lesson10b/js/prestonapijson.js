@@ -42,7 +42,7 @@ fetch(forecastURL)
         let day= 0;
         fivedayforecast.forEach(forecast => {
             let d= new Date(forecast.dt_txt);
-                document.getElementById(`temp${day + 1}`).innerHTML= `${forecast.main.temp.toFixed(0)}&deg;F`;
+                document.getElementById(`temp${day + 1}`).innerHTML= `${forecast.main.temp}&deg;F`;
                 document.getElementById(`day${day + 1}`).textContent= weekdays[d.getDay()];
 
                 const imagesrc= `https://openweathermap.org/img/wn/${forecast.weather[0].icon}`;
