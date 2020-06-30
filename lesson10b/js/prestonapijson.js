@@ -37,7 +37,7 @@ fetch(forecastURL)
     
         const fivedayforecast= jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
-        const weekdays= ["Sun", "Mon", "Tue", "Thu", "Fri", "Sat"];
+        const weekdays= ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
         let day= 0;
         fivedayforecast.forEach(forecast => {
