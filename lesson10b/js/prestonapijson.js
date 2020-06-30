@@ -46,7 +46,7 @@ fetch(forecastURL)
                 document.getElementsByClassName(`temperature${day + 1}`).textContent= forecast.main.temp;
                 
 
-                const imagesrc= `https://openweathermap.org/img/w/${forecast.weather[0].icon}`;
+                const imagesrc= `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
                 const desc= forecast.weather[0].description;
                 document.getElementById(`icon${day + 1}`).setAttribute("src", imagesrc);
                 document.getElementById(`icon${day + 1}`).setAttribute("alt", desc);
