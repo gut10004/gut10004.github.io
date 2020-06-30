@@ -266,6 +266,7 @@ article {
     padding: 2em;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: left;
 }
 
@@ -277,9 +278,6 @@ article {
     max-width: 31px;
 }
 
-footer a{
-    color: #9ae6c2;
-}
 
 footer a:hover {
     background-color: #734B5E;
@@ -291,4 +289,5 @@ footer a:hover {
 footer p{
     padding-top: 0.75em;
 }
+
 
