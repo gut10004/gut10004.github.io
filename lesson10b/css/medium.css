@@ -119,11 +119,11 @@
     margin: 1.5em;
   }
 
-  .map{
-    display: block;
-    width:300px;
-    float: left;
-    margin-right: 2em;
+
+  .contactinfo{
+    text-align: center;
   }
+
+
 
 }
