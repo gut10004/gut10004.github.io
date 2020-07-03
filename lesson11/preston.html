@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Preston Weather</title>
+        <meta name="description" content="Preston current weather and 10-day weather forecast">
+        <!--link to favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!--link to google font-->
+        <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
+        <!--link files in css folder-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <div id="banner">
+            <p><b>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</b></p>
+        </div>
+        <header>
+            <picture>
+                <source srcset="images/120-weather-logo.jpg" media="(max-width:120px)">
+                <img src="images/weather-logo.png" alt="weather website logo">
+            </picture>
+            <section class="headings">
+                <h1>Weather Predictions</h1>
+                <p class="h1p">Local news and weather predictions at the ready.</p>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li class="active"><a href="/lesson9b/index.html">Home</a></li>
+                <li><a href="/lesson10b/preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/lesson8b/stormcenter.html">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class=container>
+            <main>
+               
+                <h2>Preston Idaho</h2>
+                <div class="hero">
+                    <picture>
+                        <source srcset="images/570-idahopic.jpg" media="(max-width:869px)">
+                        <source srcset="images/870-idahopic.jpg" media="(max-width:1069px)">
+                        <img src="images/1070-idahopic.jpg" alt="Idaho mountains">
+                    </picture>
+                    <div class="weathersummary">
+                        <h3>Weather Summary</h3>
+                        <div id="summary">
+                            <div class="left">
+                                <p>Currently: </p>
+                                <p>Temperature: </p>
+                                <p>Humidity: </p>
+                                <p>Wind Speed:</p>
+                                <p>Wind Chill: </p>
+                            </div>
+                            <div class="right">
+                                <p><span id="currently"></span></p>
+                                <p><span id="temperature"></span> &deg;F</p>
+                                <p><span id="humidity"></span>%</p>
+                                <p><span id="windSpeed"></span> mph</p>
+                                <p><span id="windChillOutput"></span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="forecast">
+                    <h3>5 Day Weather Forecast</h3>
+                    <div class="week">
+                        <div class="weekdays">
+                            <span id="day1"></span>
+                            <img id="icon1" src="#" alt="">
+                            <span id="temperature1"></span> &#8457;
+                        </div>
+                        <div class="weekdays">
+                            <span id="day2"></span>
+                            <img id="icon2" src="#" alt="">
+                            <span id="temperature2"></span> &#8457;
+                        </div>
+                        <div class="weekdays">
+                            <span id="day3"></span>
+                            <img id="icon3" src="#" alt="">
+                            <span id="temperature3"></span> &#8457;
+                        </div>
+                        <div class="weekdays">
+                            <span id="day4"></span>
+                            <img id="icon4" src="#" alt="">
+                            <span id="temperature4"></span> &#8457;
+                        </div>
+                        <div class="weekdays">
+                            <span id="day5"></span>
+                            <img id="icon5" src="#" alt="">
+                            <span id="temperature5"></span> &#8457;
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <article>
+                <picture>
+                    <source srcset="images/165-picnic.jpg" media="(max-width:189px)">
+                    <source srcset="images/190-picnic.jpg" media="(max-width:249px)">
+                        <img src="images/250-picnic.jpg" alt="picnic at Foundation Park">
+                </picture>
+                
+                <h3>Founders Day Fresco</h3>
+                <h4>by Janica Juarez</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum 
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                    mollit anim id est laborum
+                    <a href="#">read full article</a>
+                </p>
+            </article>
+        </div>       
+        <footer>
+            <div class="contactinfo">
+                <div class="contactmethods">
+                <p>
+                    <b>Weather Predictions</b><br>
+                    &#x1F4CD; 30 N 1st E<br>
+                    Preston, ID 83263<br><br>
+                    &#128222; (123)123-1234<br>
+                    &#x2709; wpredictions@wp.com<br><br>
+                    <img src="images/60-facebook.png" alt="facebook">
+                    <img src="images/60-pinterest.png" alt="pinterest">
+                    <img src="images/60-twitter.png" alt="twitter">
+                </p>
+                </div>
+            </div>
+            <div>
+                <!--copyright-->
+                <p id="copyright">&copy; <span id="year"></span> | Yvette Gutierrez | Utah |  <a id="byui"
+                        href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+                <p id="modified">Last modified: <span id="currentDate"></span></p>
+            </div>
+        </footer>
+        
+        <script src="js/togglemenu.js"></script>
+        <script src="js/modifieddate.js"></script>
+        <script src="js/prestonapijson.js"></script>
+        
+    </body>
+
+</html>
