@@ -113,12 +113,17 @@
     font-weight: 500;
   }
 
+  article{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+
   article img{
     float: right;
     max-width: 20%;
     margin: 1.5em;
   }
-
-
 
 }
