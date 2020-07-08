@@ -34,7 +34,7 @@ fetch(liveURL)
 
 
 
-const forecastURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f83583a6ff92c0dc1b81953ae42984d6&units=imperial";
+const forecastURL="https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=f83583a6ff92c0dc1b81953ae42984d6&units=imperial";
 
 fetch(forecastURL)
     .then((response) => response.json())
