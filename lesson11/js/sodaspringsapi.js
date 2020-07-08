@@ -31,9 +31,6 @@ fetch(liveURL)
 
 
 
-
-
-
 const forecastURL="https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=f83583a6ff92c0dc1b81953ae42984d6&units=imperial";
 
 fetch(forecastURL)
@@ -58,4 +55,16 @@ fetch(forecastURL)
             
             day++;
         });
+});
+
+
+
+const sodaspringseventsapiURL="https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(sodaspringseventsapiURL)
+.then((response) => response.json())
+.then((jsObject) => {
+    document.getElementById("event0").textContent=jsObject.towns[5].events[0];
+    document.getElementById("event1").textContent=jsObject.towns[5].events[1];
+    document.getElementById("event2").textContent=jsObject.towns[5].events[2];
 });

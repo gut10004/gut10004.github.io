@@ -59,3 +59,15 @@ fetch(forecastURL)
             day++;
         });
 });
+
+
+
+const prestoneventsapiURL="https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(prestoneventsapiURL)
+.then((response) => response.json())
+.then((jsObject) => {
+    document.getElementById("event0").textContent=jsObject.towns[4].events[0];
+    document.getElementById("event1").textContent=jsObject.towns[4].events[1];
+    document.getElementById("event2").textContent=jsObject.towns[4].events[2];
+});

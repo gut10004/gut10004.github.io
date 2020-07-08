@@ -59,3 +59,16 @@ fetch(forecastURL)
             day++;
         });
 });
+
+
+
+const fheventsapiURL="https://byui-cit230.github.io/weather/data/towndata.json";
+
+fetch(fheventsapiURL)
+.then((response) => response.json())
+.then((jsObject) => {
+    document.getElementById("event0").textContent=jsObject.towns[1].events[0];
+    document.getElementById("event1").textContent=jsObject.towns[1].events[1];
+    document.getElementById("event2").textContent=jsObject.towns[1].events[2];
+    document.getElementById("event3").textContent=jsObject.towns[1].events[3];
+});

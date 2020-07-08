@@ -250,6 +250,7 @@ article {
     margin-right: 1em;
     text-align: left;
     background-color: #B39C4D;
+    border: 5px ridge black;
 }
 
 .forecast{
@@ -288,6 +289,22 @@ footer a:hover {
 
 footer p{
     padding-top: 0.75em;
+
 }
+
+.townevents {
+    background-color: #1E2F23; 
+    border: 2px ridge black;
+    margin: 2em 0em 2em 0em; 
+    
+}
+
+.townevents p,.townevents h3{
+    color: white;
+}
+
+
+
+
 
 
