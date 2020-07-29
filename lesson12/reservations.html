@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reservations</title>
+        <meta name="description" content="Escuter reservations for scooters and jeeps">
+        <!--link to favicon-->
+        <link rel="shortcut icon" href="images/scootfavicon.ico">
+        <!--link to google font-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+        <!--link to google font-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+
+    <body>
+       <header>
+            <img src="images/logo.png" alt="scooter logo"> 
+            <h1>Reservations</h1>
+       </header> 
+       <nav class="clearfix">
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="/lesson12/home.html">Home</a></li>
+            <li><a href="/lesson12/rentals.html">Rentals</a></li>
+            <li class="active"><a href="/lesson12/reservations.html">Reservations</a></li>
+            <li><a href="/lesson12/tours.html">Tours</a></li>
+            <li><a href="/lesson12/contact.html">Contact</a></li>
+       </nav>
+
+        <main>
+            <h2>Make a reservation</h2> 
+                
+                <form method="get" action="confirmation.html" autocomplete="on">
+
+                    <fieldset class="column">
+                        <legend>Reservation information</legend>
+                        <br><br><br>
+
+                        <label>Date:
+                            <input class= block type="date" name="stormDate">
+                        </label>
+                        <br><br><br>
+
+                        <label>Rental type:
+                            <input class= block name="stormType" list="rentalType">
+                            <datalist id="rentalType">
+                                <option value="Scooter">
+                                <option value="Scooter">
+                                <option value="Scooter">
+                                <option value="Jeep">
+                                <option value="Jeep">
+                            </datalist>
+                        </label>
+                        <br><br><br>
+                        
+                        <label>How many of this rental?:
+                            <select name="number">
+                                <option value="" disabled selected>Choose Quantity:</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">6</option>
+                                <option value="3">7</option>
+                                <option value="3">8</option>
+                                <option value="3">9</option>
+                                <option value="3">10</option>
+                                <option value="3">11</option>
+                                <option value="3">12</option>
+
+                            </select>
+                        </label>
+
+                        <br><br><br>
+                        <label>Period:
+                            <select name="number">
+                                <option value="" disabled selected>Select Number of Hours</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="3">4</option>
+                                <option value="3">5</option>
+                                <option value="3">6</option>
+                                <option value="3">7</option>
+                                <option value="3">8</option>
+                                <option value="3">9</option>
+                                <option value="3">10</option>
+                                <option value="3">11</option>
+                                <option value="3">12</option>
+
+                            </select>
+                        </label>
+                        <br><br><br>
+                        <h3>Rental Agreement</h3>
+                        Driver is at least 18 years old and has a legally issued driver's license.<br>
+                        Driver is responsible for payment of any damages or loss/theft of the vehicle.<br> 
+                        There will not be any tampering or changes made with the vehicle. <br>
+                        Vehicle will be operated only on roads. Vehicle will not be operated under the <br>
+                        influence. Driver is reponsible for any injuries sustained from operating vehicle.
+                        <p></p>
+                        <label>Do you accept the rental agreement?
+                            <br><br>
+                            <input type="radio" name="answeryes" value="yes"> Yes
+                        </label>
+                        <br><br>
+                        <label>
+                            <input  type="radio" name="answerno" value="no"> No
+                        </label>
+                        <br><br><br>
+                        
+                    </fieldset>
+
+                    <fieldset class="column">
+                        <legend>Personal information</legend>
+                        <br><br><br>
+
+                        <label><span>*</span>Full name:
+                            <input class= block type="text" name="name" placeholder="full name"
+                                pattern="[A-Za-z]{2,}\s[A-Za-z]{3,}|[A-Za-z]{3,}\s[A-Za-z]{2,}" required>
+                        </label>
+                        <br><br><br>
+
+                        <label>Email:
+                            <input class= block type="email" name="email" placeholder="youremail@gmail.com">
+                        </label>
+                        <br><br><br>
+
+                        <label><span>*</span>Phone number:
+                            <input class= block type="tel" name="phone" placeholder="(123)123-1234" required>
+                        </label>
+                       <br><br><br>
+
+                        <label><span>*</span> State, Country:
+                            <input class= block type="text" name="country" placeholder="New York, United States" required>
+                        </label>
+                        <br><br><br>
+
+                        <label><span></span> Cruise Line (If applicable):
+                            <input class= block type="text" name="cruise line" placeholder="Disney Cruises">
+                        </label>
+                        <br><br><br>
+
+                        <label>Special accommodations:
+                            <br>
+                            <textarea placeholder="Write here."></textarea>
+                        </label>
+                        <br><br><br>
+
+                        <label>Additional information/comments:
+                            <br>
+                            <textarea placeholder="Write here. Example: drop-off request and location for it."></textarea>
+                        </label>
+                        <br><br><br>
+
+                        <input id=button type="submit" value="Submit">
+                    </fieldset>
+                    <br>
+                    
+                </form>
+            
+
+            <div class="contactinfo">
+                <div class="contactmethods">
+                <p>
+                    <b>Escuter</b><br>
+                    &#x1F4CD; G248+WC y F1JR+VQ San Miguel de Cozumel, Quintana Roo, <br>
+                    Cozumel Mexico<br><br>
+                    &#128222; 52 33 2680 4137<br>
+                    &#x2709; escuter@wp.com<br><br>
+                    <a href="www.facebook.com"><img src="images/60-facebook.png" alt="facebook"></a>
+                    <a href="www.pinterest.com"><img src="images/60-pinterest.png" alt="pinterest"></a>
+                    <a href="www.twitter.com"><img src="images/60-twitter.png" alt="twitter"></a>
+                </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div>
+                <!--copyright-->
+                <p id="copyright">&copy;<span id="year"></span> | Escuter | Cozumel Mexico 
+                <p id="modified">Last modified: <span id="currentDate"></span></p>
+            </div>
+        </footer>
+
+        <!--javascript-->
+        <script src="js/togglemenu.js"></script>
+        <script src="js/modifieddate.js"></script>
+
+    </body>
+</html>

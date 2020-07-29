@@ -1,0 +1,42 @@
+/*computer viewport*/
+@media only screen and (min-width: 60em) {
+    body{
+        background-color: #F9F8F2;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    nav ul {
+        display:flex;
+    }
+
+    nav li:hover{
+        background-color: #006847;
+        color: white;
+    }
+    
+    nav ul li { 
+		flex: 1 1 100%; 
+	}
+   
+
+    .contactinfo{
+        display: block;
+       
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container{
+        padding: 5em;
+    }
+
+}
