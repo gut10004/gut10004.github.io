@@ -39,14 +39,10 @@ header {
     font-size: 0.8em;
 }
 
-body img{
+main img{
     width: 100%;
 }
 
-header picture.logo{
-    float:left;
-    width:10%;
-}
 
 h1 {
     color: white;
