@@ -26,6 +26,10 @@
       font-size: 75px;
     }
     
+    h2 {
+      font-size: 4rem;
+    }
+
     nav {
       width:100%;
     }
