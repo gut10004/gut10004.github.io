@@ -1,4 +1,4 @@
-const requestURL = ".json";
+const requestURL = "https://gut10004.github.io/lesson12/js/rentals.json";
 
 fetch(requestURL)
   .then(function (response) {
