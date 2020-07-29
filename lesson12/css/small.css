@@ -11,10 +11,12 @@ body {
     text-align: center;
 }
 
-/*phone view*/
-
 header img{
     width: 25%;
+}
+
+#reservationsh1{
+    font-size: 3em;
 }
 
 main {
